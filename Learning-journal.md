@@ -127,6 +127,19 @@ In Svelte heb je ook een terminal, hier staat af en toe waar de error is, maar v
 
 In ons geval hadden we afgesproken dat we een interactie allemaal gaan maken, tijdens mijn error nam ik een korte pauze van het oplossen en ging ik brainstormen voor ideeën wat ik komende week kan gaan coderen. Verder is het nuttig om je verder in Svelte in te lezen, wat ik ook had gedaan. Door andere activiteiten te doen had ik alsnog efficiënt mijn tijd gevuld.
 
+## Vrijdag 6/sep
+
+Vrijdag hebben we een standup gedaan met het team, verder hebben we elkaar feedback gegeven en hebben we een brainstorm-sessie gehouden voor een individuele opdracht (profilecard). Daarnaast heb we ik ook feedback gegeven aan 1e jaars.
+
+Gegeven feedback 1e jaars:
+- [Issue 1](https://github.com/ArmanVD/your-tribe-profile-card/issues/8);
+- [Issue 2](https://github.com/ArmanVD/your-tribe-profile-card/issues/9);
+- [Issue 3](https://github.com/ColindeGroot/your-tribe-profile-card/issues/2).
+
+#### Hoe geef je feedback in de 'zone of proximate development'?
+
+Ik heb 2x feedback gegeven over responsive units, dit onderwerp was nog niet aanbod gekomen bij de 1e jaars en had dat ook benoemd. Ik heb een bron erbij gelinkt zodat ze het konden inlezen, ook heb ik een codesnippet toegevoegd, hierdoor kunnen ze ook zien waar het verbeterpunt is.
+
 ## Retrospect
 
 ### Hoe combineer je een CMS met framework?
