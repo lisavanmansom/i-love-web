@@ -140,6 +140,14 @@ Gegeven feedback 1e jaars:
 
 Ik heb 2x feedback gegeven over responsive units, dit onderwerp was nog niet aanbod gekomen bij de 1e jaars en had dat ook benoemd. Ik heb een bron erbij gelinkt zodat ze het konden inlezen, ook heb ik een codesnippet toegevoegd, hierdoor kunnen ze ook zien waar het verbeterpunt is.
 
+## Week /2
+
+### Hoe maak je darkmode / lightmode toggle?
+
+[Pull request](https://github.com/zoepje/your-tribe-for-life-squad-page/pull/11)
+
+#### Hoe verloopt het samenwerken?
+
 ## Retrospect
 
 ### Hoe combineer je een CMS met framework?
