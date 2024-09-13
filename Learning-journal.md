@@ -144,9 +144,15 @@ Ik heb 2x feedback gegeven over responsive units, dit onderwerp was nog niet aan
 
 ### Hoe maak je darkmode / lightmode toggle?
 
+Ik heb via een input checkbox (html) 2 toggles gemaakt, 1 voor lightmode en de ander voor darkmode, daarna was het via CSS de root aanpassen als een bepaalde label wordt gecheckt
+
 [Pull request](https://github.com/zoepje/your-tribe-for-life-squad-page/pull/11)
 
 #### Hoe verloopt het samenwerken?
+
+### Hoe maak je functioneel gebruik van een projectboard
+
+Als feedback hadden we ontvangen dat we niet genoeg gebruik maken van issues in het projectboard, aangezien we geen wiki meer gebruiken is dit de manier van documenteren. Voordat we deze feedback ontvingen hadden we vooral globale taken genoteerd en was het zelf invullen wat je daarmee ging doen. Als iemand het project dan zou overnemen is het niet duidelijk wat er is gedaan, wat er gedaan moet worden en of er bugs zijn. Dat is iets wat je wilt voorkomen. Ik heb na deze feedback meerdere issues aangemaakt in het [projectboard](https://github.com/users/zoepje/projects/5/views/1), hierdoor is het duidelijk waar we nu mee bezig zijn en wat er nog moet worden gedaan.
 
 ## Retrospect
 
