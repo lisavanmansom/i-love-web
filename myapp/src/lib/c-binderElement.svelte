@@ -10,4 +10,6 @@
     </svg>
 
     
-<style></style>
+<style>
+    svg {width: 13em; height: 13em;}
+</style>

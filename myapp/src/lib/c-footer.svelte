@@ -8,4 +8,27 @@
     </ul>
 </footer>
 
-<style></style>
+<style>
+    footer {
+        background-color: var(--jupiter); color: var(--beijo);
+        border-top-left-radius: 1em; border-top-right-radius: 1em;
+        display: flex;
+        align-items: center; justify-content: center;
+        overflow-y: hidden;
+        width: 100%; min-height: auto;
+        text-transform: uppercase;
+    }
+
+    ul {
+        list-style: none; line-height: 0.7em;
+        display: flex; flex-direction: row;
+        align-items: center; justify-content: center;
+        flex-wrap: wrap; gap: 1em;
+        padding: 1.5em 0;
+    }
+
+    li {margin: 0}
+
+    a { color: inherit; font-weight: 200; font-size: 1em; 
+        text-decoration: none;}
+</style>
