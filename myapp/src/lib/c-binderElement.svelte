@@ -11,5 +11,12 @@
 
     
 <style>
-    svg {width: 13em; height: 13em;}
+    svg {width: 13em; height: 13em; margin: -2em 0 -0.5em 0;}
+
+    @media (min-width:500px) {
+        svg {width: 19em; height: 14em; margin: -0 0 1.4em 0;}
+    }
+    @media (min-width:860px) {
+        svg {width: 22em; height: 15em; margin: 1em 0 1.8em 0;}
+    }
 </style>

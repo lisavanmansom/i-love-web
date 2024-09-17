@@ -31,4 +31,9 @@
 
     a { color: inherit; font-weight: 200; font-size: 1em; 
         text-decoration: none;}
+
+        @media (min-width:700px) {
+            ul { gap: 2em}
+            a { font-size: 1.1em; }
+        }
 </style>

@@ -29,5 +29,16 @@
     h2 { font-weight: 200; font-size: 1.4em;}
     p  { font-weight: 100; font-size: 1.2em;}
 
+    @media (min-width: 500px) {
+        h1 { font-size: 3em;}
+        h2 { font-size: 1.9em;}
+        p  { font-size: 1.4em;}
+    }
+
+    @media (min-width:860px) {
+        h1 { font-size: 4em;}
+        h2 { font-size: 2.5em;}
+        p  { font-size: 1.8em;}
+    }
 
 </style>
