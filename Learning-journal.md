@@ -228,3 +228,7 @@ Op vrijdag 20 sept hebben we de retrospect, tijdens de retrospect wordt het pas 
 
 Door gebruik te maken van mijn kennis heb ik bij eerste jaars feedback gegeven doormiddel van issues. Verder doe ik 1x per week studentassistent, hier help ik CMD-studenten met het maken van een website. In beide gevallen is het helpen tot nu toe minimaal. Op donderdag 19 sept wordt er verwacht dat de CMD-studenten code hebben, vanaf dat punt kan ik mensen meer helpen. Om deze vraag beter te kunnen beantwoorden, was het ook handig geweest om mijn sterke en zwakke punten te identificeren. Ik ben van plan om deze leervraag volgende sprint nog een keer te doen.
 
+Op donderdag 19 september waren er voortgangsgesprekken, hieruit kwam naarvoren de diversiteit in kennis en skills in het vakgebied per CMD-student. In die gesprekken is er vooral mondelijk feedback gegeven over codestructeren. In een excel bestand hebben we de feedback / de voortgang genoteerd.
+
+<img width="1200" alt="Scherm­afbeelding 2024-09-22 om 11 57 16" src="https://github.com/user-attachments/assets/6d91836d-0859-4407-9aba-19f4fa8c5963">
+
