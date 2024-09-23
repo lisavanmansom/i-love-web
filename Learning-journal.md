@@ -232,3 +232,11 @@ Op donderdag 19 september waren er voortgangsgesprekken, hieruit kwam naarvoren 
 
 <img width="1200" alt="Scherm­afbeelding 2024-09-22 om 11 57 16" src="https://github.com/user-attachments/assets/6d91836d-0859-4407-9aba-19f4fa8c5963">
 
+# Sprint 14
+
+## Leervragen
+
+* Hoe kan ik Svelte efficient inzetten? (denk componenten etc)
+* Hoe maak ik subtiel gebruik van een JS library?
+* Hoe kan ik mijn sterke en zwakke punten gebruiken om andere te helpen en inzicht krijgen daarin?
+
