@@ -245,15 +245,15 @@ Op donderdag 19 september waren er voortgangsgesprekken, hieruit kwam naarvoren 
 
 Op maandag heb ik met mijn groepje voorbereidingen getroffen voor briefing / debriefing. Als groepje hebben we ook een teamcanvas ingevuld. Op woensdag hebben we een datamodel gemaakt en een sitemap, door een datamodel te maken zorg je ervoor dat het duidelijk is wat er in de CMS is. Op donderdag heb ik de CMS ingevuld doormiddel van het datamodel. Verder was er op woensdag de briefing / debriefing, hier heb ik meerdere vragen gesteld aan de opdrachtgever. Op vrijdag hadden we een feedback moment met de leraren, hieruit bleek dat nog niet iedereen uit mijn groepje goed opweg was.
 
-* Hoe zorg je ervoor dat een team resultaat levert en dat iedereen hun taak voltooid?
+### Hoe zorg je ervoor dat een team resultaat levert en dat iedereen hun taak voltooid?
 
 Op vrijdag hadden we een feedback moment met leraren, daaruit bleek dat er nu al gaten vallen in onze samenwerking. Om dit verder te voorkomen gaan we maandag opnieuw afspraken maken en het teamcanvas nog een keer nalopen. Door dit te doen gaat de samenwerking hopelijk beter en levert iedereen het gewenste resultaat.
 
-* Hoe zorg je dat de briefing die je ontvangt duidelijk is en dat je vanuit daar knelpunten kan analyseren en aangeven?
+### Hoe zorg je dat de briefing die je ontvangt duidelijk is en dat je vanuit daar knelpunten kan analyseren en aangeven?
 
 Onze briefing bestond uit vragen stellen en vanuit daar ging de opdrachtgever een het uitleggen. Hierdoor was het belangrijk om zelf met de vragen te komen en te luisteren totdat de boodschap helder is. Om die reden was het makkelijker om door te vragen en verifieren omdat de briefing voornamelijk uit vragen bestonden die ik had gesteld. Daardoor was het ook eenvoudiger om knelpunten aan te geven, als voorbeeld, de opdrachtgever wil een AI-chatbot in haar website, dit kunnen we niet maken en zou in de toekomst een knelpunt kunnen worden. Omdat we zelf met vragen moesten komen was het aangeven van een knelpunt zoals dat makkelijker en had ik dat gelijk gedaan.
 
-* Hoe zorg je dat alle data in een CMS komt te staan met structuur?
+### Hoe zorg je dat alle data in een CMS komt te staan met structuur?
 
 We hadden als groepje vooraf een datamodel en een sitemap geschetst. Hierdoor was het vooraf duidelijker wat er moest gebeuren. Alsnog ging het mis met het toevoegen van de data in Directus op woensdag. Op donderdag had ik met de hulp van een leraar het juist opgezet. Nu heeft het de juiste conventies en structuur en het ging makkelijker door het geschetste datamodel.
 
