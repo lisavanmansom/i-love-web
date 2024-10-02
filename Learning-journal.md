@@ -313,7 +313,7 @@ Als feedback hadden we vrijdag gekregen dat we afspraken moeten maken. Deze afsp
 ## Dinsdag / 1 okt
 ### One-pager PE
 
-Het gedeelte wat ik maak bij Drop&Heal is een one-pager waarbij je maar 1 section tegerlijk kan zien, dit heb ik niet eerder gedaan dus had ik onderzoek ernaar gedaan. In de [documentatie](https://github.com/orgs/fdnd-agency/projects/37/views/1?pane=issue&itemId=81733588) staat de gehele uitleg. Als eerste ben ik begonnen met bronnen / voorbeelden bekijken, vanuit hier heb ik meerdere opties geprobeerd. In eerste instantie dacht ik dat het a-element moest worden gemaakt, dit werkte niet helemaal, dus toen heb ik de bronnen toegepast, hier gebruikte ze vooral input radio / checkbox. Dit werkte ook niet, door dit tee doen kwam ik wel op de code die ik niet nodig had voor het uiteindlijke resultaat, wat is gemaakt met het a-element. Ik moet het nog testen of het werkt als de JS uitstaat, aangezien er wel 1 regel JS is.
+Het gedeelte wat ik maak bij Drop&Heal is een one-pager waarbij je maar 1 section tegerlijk kan zien, dit heb ik niet eerder gedaan dus had ik onderzoek ernaar gedaan. In de [documentatie](https://github.com/orgs/fdnd-agency/projects/37/views/1?pane=issue&itemId=81733588) staat de gehele uitleg. Als eerste ben ik begonnen met bronnen / voorbeelden bekijken, vanuit hier heb ik meerdere opties geprobeerd. In eerste instantie dacht ik dat het a-element moest worden gemaakt, dit werkte niet helemaal, dus toen heb ik de bronnen toegepast, hier gebruikte ze vooral input radio / checkbox. Dit werkte ook niet, door dit te doen kwam ik wel op de code die ik uiteindelijk nodig had voor het resultaat. Dit is gemaakt met het a-element. Ik moet het nog testen of het werkt als de JS uitstaat, aangezien er wel 1 regel JS is.
 
 #### Code
 
@@ -353,7 +353,6 @@ let current = 1;
         opacity: 0;
         visibility: hidden;
      }
-
 ```
 
 ### Student-assistent
