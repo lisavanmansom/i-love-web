@@ -155,14 +155,6 @@ Op maandag hadden we een standup en hadden we verschillende taken verdeeld. Ik z
 
 Als feedback hadden we ontvangen dat we niet genoeg gebruik maken van issues in het projectboard, aangezien we geen wiki meer gebruiken is dit de manier van documenteren. Voordat we deze feedback ontvingen hadden we vooral globale taken genoteerd en was het zelf invullen wat je daarmee ging doen. Als iemand het project dan zou overnemen is het niet duidelijk wat er is gedaan, wat er gedaan moet worden en of er bugs zijn. Dat is iets wat je wilt voorkomen. Ik heb na deze feedback meerdere issues aangemaakt in het [projectboard](https://github.com/users/zoepje/projects/5/views/1), hierdoor is het duidelijk waar we nu mee bezig zijn en wat er nog moet worden gedaan.
 
-## We love web - Semester 3
-### Vasilis van Gemert - CMD docent
-
-Webbureau websites waar alles serieus was (werkplek). Om die reden zijn eigen website (digital garden) gestart.
-
-Eigen website gestart -> Love nonsense.
-Hij houdt van achterkanten van schilderijen en van tijd (klokken), dit heeft hij meerdere keren in zijn design geïmplementeerd.
-
 ## Week /3
 ### Samenwerken en prioriteren
 
@@ -257,6 +249,115 @@ Onze briefing bestond uit vragen stellen en vanuit daar ging de opdrachtgever ee
 
 We hadden als groepje vooraf een datamodel en een sitemap geschetst. Hierdoor was het vooraf duidelijker wat er moest gebeuren. Alsnog ging het mis met het toevoegen van de data in Directus op woensdag. Op donderdag had ik met de hulp van een leraar het juist opgezet. Nu heeft het de juiste conventies en structuur en het ging makkelijker door het geschetste datamodel.
 
+## Maandag / 30 sept
+### Sveltekit principles
 
+**Structuur**
 
+In src staat alles wat svelte nog moet uitvoeren
+Vite -> buildtools voor webomgeving
+
+**Error handeling**
+
++error.svelte —> voor error handeling
+error.html —> voor errorr handeling als svelte niet meer werkt.
+
++layout.svelte —> layout format gerendered
+
+**Loading data**
+
+In server.js (vb code) —>
+
+Return { For: “”; Bar: 42; Type: “”;}
+
+In +page.svelte —> Export let data
+
+**Binding**
+
+<Input bind:value={name} />
+<p>hello {name}<p/>
+
+**Library**
+
+In de index.js moet een verzameling.van componenten staan (wat ik nu soort van heb in de script)
+
+Toepassing in index.js (file in lib):
+```
+export { default as MeshgradBlue } from './meshgrad-blue.svelte'
+export { default as MeshgradRed } from './meshgrad-red.svelte'
+export { default as MeshgradGreen } from './meshgrad-green.svelte'
+export { default as MeshgradPink } from './meshgrad-pink.svelte'
+export { default as ArrowL } from './arrow-l.svelte'
+export { default as ArrowR } from './arrow-r.svelte'
+```
+
+Uitwerking in +page.svelte:
+
+```
+import {MeshgradBlue, MeshgradRed, MeshgradGreen, MeshgradPink, ArrowL, ArrowR} from '$lib'
+```
+
+**Export**
+
+In +page.svelte in script -> Import {header, footer} from $lib
+
+### Samenwerking
+
+Als feedback hadden we vrijdag gekregen dat we afspraken moeten maken. Deze afspraken hebben we vastgelegd in het [projectboard.](https://github.com/orgs/fdnd-agency/projects/37/views/1?pane=issue&itemId=81595450) Gemaakte afspraken:
+- Als je een taak hebt ben je zelf verantwoordelijk voor het projectboard, de taken / progress / splitst;
+- Harde deadline --> 7 oktober;
+- Standups bijhouden;
+- Bij afwezigheid melden in groepchat in de ochtend;
+- Als afspraken niet worden nagevolgd kan eventueel een samenwerkingsverband verbroken.
+
+## Dinsdag / 1 okt
+### One-pager PE
+
+Het gedeelte wat ik maak bij Drop&Heal is een one-pager waarbij je maar 1 section tegerlijk kan zien, dit heb ik niet eerder gedaan dus had ik onderzoek ernaar gedaan. In de [documentatie](https://github.com/orgs/fdnd-agency/projects/37/views/1?pane=issue&itemId=81733588) staat de gehele uitleg. Als eerste ben ik begonnen met bronnen / voorbeelden bekijken, vanuit hier heb ik meerdere opties geprobeerd. In eerste instantie dacht ik dat het a-element moest worden gemaakt, dit werkte niet helemaal, dus toen heb ik de bronnen toegepast, hier gebruikte ze vooral input radio / checkbox. Dit werkte ook niet, door dit te doen kwam ik wel op de code die ik uiteindelijk nodig had voor het resultaat. Dit is gemaakt met het a-element. Ik moet het nog testen of het werkt als de JS uitstaat, aangezien er wel 1 regel JS is.
+
+#### Code
+
+**script:**
+
+```
+let current = 1;
+```
+
+**html (4x):**
+
+```
+<section id="rt-1" class:show={current === 1} class:hide={current != 1}>
+        <h2>Rouwtaak <em>1</em></h2>
+        <h3>Het verlies aanvaarden</h3>
+        <p>Ontdek hoe je de realiteit van het verlies kunt omarmen.</p> 
+        <MeshgradBlue class="meshgrad" />
+
+        <div aria-busy="true" aria-describedby="progress-bar"></div>
+        <progress value="20" max="100"></progress>
+
+        <div class="d-a">
+            <a href="#rt-2" on:click={() => current = 2}><ArrowR /></a>
+        </div>
+      </section>
+```
+
+**css:**
+
+```
+.show {
+        opacity: 1;
+        visibility: visible;
+    }
+
+    .hide {
+        opacity: 0;
+        visibility: hidden;
+     }
+```
+
+### Student-assistent
+
+Op dinsdag heb ik geholpen bij CMD-studenten als student-assistent, na verloop van deze lessen ben ik erachter gekomen dat ze vaak niet om hulp vragen, als student-assistent loop je rondjes en vraag je of het lukt en grotendeels van de tijd is het antwoord 'ja' of ze reageren niet. Vandaag heb ik vooral geholpen met screenreader, SVG's, overflow van een page, flex voor een nav en Javascript. Op donderdag zijn voortgangsgesprekken en meestal vanuit daar kan je meer helpen omdat je dan ook echt in de code gaat.
+
+## Woensdag / 2 okt
 
