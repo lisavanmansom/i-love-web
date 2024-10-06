@@ -359,5 +359,12 @@ let current = 1;
 
 Op dinsdag heb ik geholpen bij CMD-studenten als student-assistent, na verloop van deze lessen ben ik erachter gekomen dat ze vaak niet om hulp vragen, als student-assistent loop je rondjes en vraag je of het lukt en grotendeels van de tijd is het antwoord 'ja' of ze reageren niet. Vandaag heb ik vooral geholpen met screenreader, SVG's, overflow van een page, flex voor een nav en Javascript. Op donderdag zijn voortgangsgesprekken en meestal vanuit daar kan je meer helpen omdat je dan ook echt in de code gaat.
 
-## Woensdag / 2 okt
+## Donderdag / 3 okt
 
+### Rouwvormen animeren
+
+Op donderdag was ik gestart met [rouwvormen animeren](https://github.com/orgs/fdnd-agency/projects/37/views/1?pane=issue&itemId=81035744), ik was van plan om een svg te animeren. Toen ik van start ging had ik de gedachte dat het beeldmateriaal in het figma-file een svg was, echter was dat niet zo. Hierdoor was ik te lang bezig met het omzetten van de png naar svg, wat uiteindelijk niet het gewenste resultaat opleverde. Toen besloot ik om de 1e twee rouwvormen, de png, te animeren. Dit was niet het orginele resultaat en plan waar ik voor wou gaan, om die reden kon ik het ook niet met een JS-library animeren zoals ik voor ogen had in mijn opgezette leervraag begin deze sprint. 
+
+### Student-assistent
+
+Op donderdag waren voortgansgsgesprekken, hier hebben we besproken waar de studenten tegen aan lopen tijdens het coderen. De meeste lopen aan tegen kleine problemen zoals een height / width toevoegen aan elementen. Verder moeten veel studenten een carousel maken, hiervoor hebben we scroll snap geadviseerd om te gebruiken. Bij sommige studenten hadden we ook een aantal error's opgelost, bijvoorbeeld de header met daarin een navigatie van een student die de site van Louisvuitton maakt. Hierin ging het om het goed gebruik maken van positionering, wat zij bijna had maar nog niet helemaal. Vaak zie je ook dat studenten nog moeten beginnen met css of weinig hebben en in die gevallen kan je ze allemaal tips geven over toekomstige problemen waar ze waarschijnlijk tegen aan gaan lopen. Veel studenten waren na deze gesprekken gemotiveerd om verder te gaan met coderen en meerdere zeiden dat ze er echt wat aan hadden.
