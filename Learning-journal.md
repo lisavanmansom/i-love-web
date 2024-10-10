@@ -510,7 +510,7 @@ Door al deze dingen te doen was het doel dat er een goede samenwerking zou zijn,
 Om tot conclusie te komen, ik heb eigenlijk te veel bijgedragen maar als ik het niet zou doen, dan was het niet gedaan. Bij veel taken heb je het nodig als bewijslast, dus dan moet het alsnog worden gedaan en is er uiteindelijk niet echt een keus.
 
 **Overzicht taken gedaan:**
-- Readme, opzetten projectboard, opzetten svelte, documenteren in het projectboard, standups, directus inrichten, directus linken, data ophalen, rollen benoemen, afspraken opzetten, debriefing, livezetten, contact leggen met de opdrachtgever
+- Readme, opzetten projectboard, opzetten svelte, documenteren in het projectboard, standups, directus inrichten, directus linken, data ophalen, rollen benoemen, afspraken opzetten, debriefing, livezetten, briefing gesprek leiden, contact leggen met de opdrachtgever
 
 **Documentaties:**
 - https://github.com/fdnd-agency/drop-and-heal/issues/5
