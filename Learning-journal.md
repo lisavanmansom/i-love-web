@@ -233,7 +233,7 @@ Op donderdag 19 september waren er voortgangsgesprekken, hieruit kwam naarvoren 
 * Hoe kan ik mijn sterke en zwakke punten gebruiken om andere te helpen en inzicht krijgen daarin?
 * Hoe kan ik bijdragen in een goede samenwerking?
 
-## Week /1
+## Week / 1
 
 Op maandag heb ik met mijn groepje voorbereidingen getroffen voor briefing / debriefing. Als groepje hebben we ook een teamcanvas ingevuld. Op woensdag hebben we een datamodel gemaakt en een sitemap, door een datamodel te maken zorg je ervoor dat het duidelijk is wat er in de CMS is. Op donderdag heb ik de CMS ingevuld doormiddel van het datamodel. Verder was er op woensdag de briefing / debriefing, hier heb ik meerdere vragen gesteld aan de opdrachtgever. Op vrijdag hadden we een feedback moment met de leraren, hieruit bleek dat nog niet iedereen uit mijn groepje goed opweg was.
 
@@ -368,3 +368,153 @@ Op donderdag was ik gestart met [rouwvormen animeren](https://github.com/orgs/fd
 ### Student-assistent
 
 Op donderdag waren voortgansgsgesprekken, hier hebben we besproken waar de studenten tegen aan lopen tijdens het coderen. De meeste lopen aan tegen kleine problemen zoals een height / width toevoegen aan elementen. Verder moeten veel studenten een carousel maken, hiervoor hebben we scroll snap geadviseerd om te gebruiken. Bij sommige studenten hadden we ook een aantal error's opgelost, bijvoorbeeld de header met daarin een navigatie van een student die de site van Louisvuitton maakt. Hierin ging het om het goed gebruik maken van positionering, wat zij bijna had maar nog niet helemaal. Vaak zie je ook dat studenten nog moeten beginnen met css of weinig hebben en in die gevallen kan je ze allemaal tips geven over toekomstige problemen waar ze waarschijnlijk tegen aan gaan lopen. Veel studenten waren na deze gesprekken gemotiveerd om verder te gaan met coderen en meerdere zeiden dat ze er echt wat aan hadden.
+
+## Week / 3
+
+### Over Agile, scrummed en project management
+
+**Waterval vs Agile**
+
+Waterval: Specification related paradigms;
+Agile: Comprehensive-system.
+
+Nieuwe Agile instrumenten
+
+Get Agile
+
+### View transitions
+
+Voor een smooth overgang zijn er view transitions nodig. Ik ben begonnen om verschillende bronnen door te nemen.
+
+**Bron:**
+- https://developer.chrome.com/docs/web-platform/view-transitions?hl=nl
+- https://developer.mozilla.org/en-US/docs/Web/API/View_Transitions_API
+- https://codepen.io/bramus/pen/GRVRjYE
+- https://www.youtube.com/watch?v=q_2irZO4SS8
+
+#### Code
+
+Om viewtransitions te maken moet je een nieuw file aanmaken en dit file linken op elke page waar je viewtransitions wil.  Door dit toe de onderstaande code toe te voegen ontstaat er een viewtransitions als je navigeert in-between-pages.
+
+**new file:**
+
+```
+<script lang="ts">
+    import { onNavigate } from '$app/navigation';
+    onNavigate((navigation) => {
+        if (!document.startViewTransition) return;
+        return new Promise(resolve => {
+            document.startViewTransition(async () => {
+                resolve();
+                await navigation.complete;
+            });
+        });
+    });
+</script>
+
+```
+
+**script:**
+
+```
+  import ViewTransition from '../navigation.svelte'
+```
+
+**html:**
+
+```
+  <div class="app">
+    <ViewTransition />
+  </div>
+```
+
+### Voorbereiden sprint review & retrospect
+
+Sprint review: kijken wat je gedaan hebt en hoe ver je bent gekomen (met de opdrachtgever)
+
+**Doel:**
+- specifieke vragen stellen voor feedback (van tevoren hebt bedacht);
+- demo;
+- langs user stories gaan van de ze sprint;
+- website laten zien, naast het design;
+- laten zien wat er nog niet is gelukt a.d.h.v. het design;
+- tijdens de demo benadrukken wat de punten zijn waar je feedback op wilt hebben;
+- met enthousiasme;
+- voorstel om een functionaliteit beter te maken (feedback geven aan de opdrachtgever);
+- uitkomst testen bespreken;
+- plan voor de komende sprint;
+- werk opleveren.
+
+**Rollen:**
+- presentator;
+- feedback verwerker / notulist (issues);
+- cheerleader;
+- timekeeper.
+
+## Retrospect
+
+### Hoe kan ik Svelte efficient inzetten? (denk componenten etc)
+
+Door in de library een 'index.js' file aan te maken. In dit bestand kan je componenten linken die ook in de library staan.
+
+```
+export { default as MeshgradBlue } from './meshgrad-blue.svelte'
+export { default as MeshgradRed } from './meshgrad-red.svelte'
+export { default as MeshgradGreen } from './meshgrad-green.svelte'
+export { default as MeshgradPink } from './meshgrad-pink.svelte'
+export { default as BlurgradBlue } from './blurgrad-blue.svelte'
+export { default as BlurgradRed } from './blurgrad-red.svelte'
+export { default as BlurgradGreen } from './blurgrad-green.svelte'
+export { default as BlurgradPink } from './blurgrad-pink.svelte'
+export { default as ArrowL } from './arrow-l.svelte'
+export { default as ArrowR } from './arrow-r.svelte'
+```
+
+In het file waar je html/css/js staat heb je de volgende regel:
+
+```
+  import {MeshgradBlue, ArrowR} from '$lib'
+```
+
+Hierdoor kan je efficienter te werk gaan doordat je gebruik maakt van componenten en ziet het er overzichtelijker uit in het werk-file omdat je maar 1 regel toepast.
+
+### Hoe maak ik subtiel gebruik van een JS library?
+
+In deze sprint wilde ik gebruik maken van een JS library om een svg te animeren, ik had deze taak als een 'should have' gemarkeerd omdat het niet de grootste prioriteit had. Toen het eenmaal zover was om deze taak te doen zat ik in de 2e week van de sprint, op dat moment kwam ik erachter dat het beeldmateriaal een png was inplaats van een svg, ik heb gevraagd aan een cmd-student of die het beeldmateriaal kon omzetten naar een svg. Dit was op een donderdag en op een vrijdag krijg ik feedback over iets wat en hogere prioriteit had, om die reden ben ik er niet aan toe gekomen om met een JS library te werk te gaan. Om alsnog wel een animatie te maken op het element heb ik gebruik gemaakt van CSS keyframes
+
+```
+    @keyframes aBlue {
+    25% { transform: scale(1.2); }
+    50% { transform: scale(1.1); }
+    75% { transform: scale(1.2); }
+    }
+```
+
+
+### Hoe kan ik mijn sterke en zwakke punten gebruiken om andere te helpen en inzicht krijgen daarin?
+
+Deze sprint hadden we voortgangsgesprekken, hierdoor kan ik mijn sterke en zwakke punten makkelijker inzetten om andere te helpen en inzicht krijgen.
+
+Ik had voornamelijk geholpen met een hamburger-menu, hier hoort het 3-stappenplan van JS bij en een aantal CSS principes. Over het algemeen moeten ze gebruik maken van CSS-properties die ze dan niet kennen, zo nu en dan kan je een bron meegeven, maar vaak door het antwoord te zeggen komen ze er direct zelf uit (denk aan als ze een width / height vergeten). Door zulke kennis in te zetten bij problemen van andere kan je ze helpen met inzicht krijgen in hun probleem.
+
+**complete documentatie:**
+- https://github.com/lisavanmansom/i-love-web/edit/main/Learning-journal.md#student-assistent-1
+- https://github.com/lisavanmansom/i-love-web/edit/main/Learning-journal.md#student-assistent
+  
+### Hoe kan ik bijdragen in een goede samenwerking?
+
+We zijn gestart met een teamcanvas in te vullen, hier hebben we afspraken, doelen, rollen, etc vastgelegd. Na feedback van leraren hebben we nog een keer de week daarna duidelijkere afspraken gemaakt. Verder hebben we om codeconventies opgezet zodat hier geen conflicten kunnen ontstaan. Daarnaast hebben we later in de sprint de rollen nog expliciter benoemd zodat het duidelijk is voor iedereen wat er verwacht kan worden van hun en van andere. Ten slot zijn alle standups gedocumenteerd, hierdoor zijn de ontwikkelingen in het team duidelijk terug te lezen.
+
+Door al deze dingen te doen was het doel dat er een goede samenwerking zou zijn, iedereen heeft bovendien z'n individuele taken gedaan. Maar alsnog ging het niet helemaal soepel, alle taken die collectief voor de groep in voordeel zouden zijn, zijn door mij gemaakt omdat niemand echt initatief toonde. Als voorbeeld, bij het opzetten van Directus was de vraag wie gaat dat doen, de aanwezige teamleden kijken schaapachtige naar mij omdat hun het niet echt zagen zitten, ik merkte dat mijn teamleden vanuit gingen dat de taken die voor de groep collectief waren wel voor hun zouden worden gedaan. Ook waren een aantal gezamelijke taken zoals duidelijke afspraken opzetten, hier had ik besloten om hun aan het woord te laten zodat ik niet alles zou 'bepalen, alleen hadden ze niks te zeggen / voorgesteld, dus uiteindelijk heb ik dat ook in mijn eentje opgezet.
+
+Om tot conclusie te komen, ik heb eigenlijk te veel bijgedragen maar als ik het niet zou doen, dan was het niet gedaan. Bij veel taken heb je het nodig als bewijslast, dus dan moet het alsnog worden gedaan en is er uiteindelijk niet echt een keus.
+
+**Overzicht taken gedaan:**
+- Readme, opzetten projectboard, opzetten svelte, documenteren in het projectboard, standups, directus inrichten, directus linken, data ophalen, rollen benoemen, afspraken opzetten, debriefing, livezetten, contact leggen met de opdrachtgever
+
+**Documentaties:**
+- https://github.com/fdnd-agency/drop-and-heal/issues/5
+- https://github.com/fdnd-agency/drop-and-heal/issues/47
+- https://github.com/fdnd-agency/drop-and-heal/issues/27
+- https://github.com/fdnd-agency/drop-and-heal/issues/2
+- https://github.com/fdnd-agency/drop-and-heal/issues/1
