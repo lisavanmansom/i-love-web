@@ -1,6 +1,11 @@
 <script>
     import Footer from '$lib/c-footer.svelte';
+    import ViewTransition from '../navigation.svelte'
 </script>
+
+<div class="app">
+    <ViewTransition />
+  </div>
 
 <main>
     <header>
@@ -44,7 +49,7 @@
                     </ul>
                     </div>
                 </a>
-            <img width="100" height="100" alt="website for Tumi Mundo" src="../images/tumi-Mundo.png">
+            <img width="100" height="100" loading="lazy" alt="website for Tumi Mundo" src="../images/tumi-Mundo.png">
         </article>
 
         <article>
@@ -61,7 +66,7 @@
                     </ul>
                 </div>
             </a>
-            <img width="100" height="100" alt="website for funda" src="../images/funda.png">
+            <img width="100" height="100" loading="lazy" alt="website for funda" src="../images/funda.png">
         </article>
 
         <article>
@@ -78,7 +83,7 @@
                     </ul>
                 </div>
             </a>
-            <img width="100" height="100" alt="website for bnr" src="../images/bnr.png">
+            <img width="100" height="100" loading="lazy" alt="website for bnr" src="../images/bnr.png">
         </article>
 
         <article>
@@ -94,7 +99,7 @@
                     </ul>
                 </div>
             </a>
-            <img width="100" height="100" alt="" src="../images/profilecard-2.png">
+            <img width="100" height="100" loading="lazy" alt="" src="../images/profilecard-2.png">
         </article>
 
         <article>
@@ -110,7 +115,7 @@
                     </ul>
                 </div>
             </a>
-            <img width="100" height="100" alt="website for fresk digital" src="../images/fresk-digital.png">
+            <img width="100" height="100" loading="lazy" alt="website for fresk digital" src="../images/fresk-digital.png">
         </article>
 
         <article>
@@ -118,7 +123,7 @@
             <h3>Squadpage / 1</h3>
             <h4>frontend design</h4>
                 <div>
-                    <p>On this squadpage you can find all the members that are part of the squad and get in contact with them. This was a group task in which 5 people took part, for this reason there weren't really as much tasks to be done for everyone.</p>
+                    <p>On this squadpage you can find all the members that are part of the squad and get in contact with them. This was a group task in which 5 people took part.</p>
                     <ul>
                         <li><bold>Tools</bold></li>
                         <li>Express, EJS & Node</li>
@@ -126,7 +131,7 @@
                     </ul>
                 </div>
             </a>
-            <img width="100" height="100" alt="#" src="../images/squadpage-2.png">
+            <img width="100" height="100" loading="lazy" alt="#" src="../images/squadpage-2.png">
         </article>
 
         <article>
@@ -143,7 +148,7 @@
                     </ul>
                 </div>
             </div>
-            <img width="100" height="100" alt="#" src="../images/tigioo.png">
+            <img width="100" height="100" loading="lazy" alt="#" src="../images/tigioo.png">
         </article>
 
         <article>
@@ -160,7 +165,7 @@
                     </ul>
                 </div>
             </div>
-            <img width="100" height="100" alt="" src="../images/pt.png">
+            <img width="100" height="100" loading="lazy" alt="" src="../images/pt.png">
         </article>
 
         <article>
@@ -177,7 +182,7 @@
                     </ul>
                 </div>
             </div>
-            <img width="100" height="100" alt="" src="../images/ukiyo-ki.png">
+            <img width="100" height="100" loading="lazy" alt="" src="../images/ukiyo-ki.png">
         </article>
 
         <article>
@@ -194,7 +199,7 @@
                     </ul>
                 </div>
             </div>
-            <img width="100" height="100" alt="" src="../images/concept-1.png">
+            <img width="100" height="100" loading="lazy" alt="" src="../images/concept-1.png">
         </article>
 
         <article>
@@ -208,7 +213,7 @@
                     </ul>
                 </div>
             </div>
-            <img width="100" height="100" alt="" src="../images/concept-squadpage.png">
+            <img width="100" height="100" loading="lazy" alt="" src="../images/concept-squadpage.png">
         </article>
 
         <article>
@@ -223,23 +228,52 @@
                     </ul>
                 </div>
             </div>
-            <img width="100" height="100" alt="" src="../images/other.png">
+            <img width="100" height="100" loading="lazy" alt="" src="../images/other.png">
         </article>
 
         <article>
             <h3>Drawings / 1</h3>
-            <img width="100" height="100" alt="" src="../images/drawings-1.png">
+            <img width="100" height="100" loading="lazy" alt="" src="../images/drawings-1.png">
         </article>
 
         <article>
             <h3>Drawings / 2</h3>
-            <img width="100" height="100" alt="" src="../images/drawings-2.png">
+            <img width="100" height="100" loading="lazy" alt="" src="../images/drawings-2.png">
         </article>
     </div>
     </section>
 
     <section>
         <h2>about me</h2>
+        <ul>
+            <li><h3>Lisa van Mansom</h3>
+            </li>
+
+            <li><h3>about me /</h3>
+                <img width="100" height="100" loading="lazy" alt="" src="../images/about-1.png">
+            </li>
+
+            <li><h3>about me /</h3>
+                <img width="100" height="100" loading="lazy" alt="" src="../images/about-2.png">
+            </li>
+
+            <li><h3>about me /</h3>
+                <img width="100" height="100" loading="lazy" alt="" src="../images/about-3.png">
+            </li>
+
+            <li><h3>about me /</h3>
+                <img width="100" height="100" loading="lazy" alt="" src="../images/about-4.png">
+            </li>
+
+            <li><h3>about me /</h3>
+                <img width="100" height="100" loading="lazy" alt="" src="../images/about-5.png">
+            </li>
+
+            <li><h3>about me /</h3>
+                <img width="100" height="100" loading="lazy" alt="" src="../images/about-6.png">
+            </li>
+        </ul>
+
     </section>
 
     
@@ -273,7 +307,11 @@ main {
         align-items: start; justify-content: space-evenly;
         display: flex; flex-direction: column;
         margin: 4em 0 0 3.5em;
-        width: 100%; min-height: 55em;
+        width: 100%;
+    }
+
+    section:nth-of-type(1) {
+        min-height: 45em;
     }
 
     .l-d { 
@@ -282,8 +320,10 @@ main {
         gap: 1.5em;
         overflow: scroll;
         width: 90%;
-        scroll-snap-type: x mandatory;}
-
+        scroll-snap-type: x mandatory;
+        container: card-banner / inline-size;
+    }
+        
     article { 
         align-items: center;
         background-color: var(--areia);
@@ -296,17 +336,19 @@ main {
         height: 45em;
         line-height: 1.8em;
         padding: 1.25em .5em .5em .5em;
-        min-width: 18em;
+        min-width: 90%;
+        max-width: 24.75em;
         scroll-snap-align: center;
     }
 
     article img {
         border: .1em solid var(--beijo);
         border-radius: 10px;
-        min-height: 12em;
+        min-height: 25%;
         object-fit: cover;
         order: -1;
-        min-width: 16em;
+        width: 95%;
+        max-width: 22.5em;
     }
 
     .a-d {
@@ -316,7 +358,8 @@ main {
         flex-direction: column;
         height: 29.25em;
         padding: .5em 0;
-        width: 16em;
+        width: 95%;
+        max-width: 22.5em;
     }
 
     .a-d div {
@@ -332,12 +375,12 @@ main {
         font-size: 1em;        
     }
 
-    li {
+    section:nth-of-type(1) li {
         font-weight: 100;
         margin-left: 1.5em ;
     }
 
-    li:first-of-type { 
+    section:nth-of-type(1) li:first-of-type { 
         font-weight: 400; 
         margin: 0;
         list-style: none;
@@ -346,5 +389,54 @@ main {
     article:nth-last-of-type(2n) {background-color: var(--kalimba);}
 	article:nth-last-of-type(3n) {background-color: var(--jupiter);}
     article:nth-last-of-type(4n) {background-color: var(--solitario);}
+
+    @container card-banner (min-width: 450px) {
+        article {
+            min-width: 24.75em;
+        }
+    }
+
+    @container card-banner (min-width: 750px) {
+        article {
+            min-width: 38em;
+            height: 37em;
+        }
+
+        article img {
+            min-height: 52%;
+            max-width: unset;
+        }
+
+        .a-d {
+            max-height: 15.5em;
+            min-width: 95%;
+        }
+
+        .a-d div {
+            flex-direction: row;
+        }
+
+        .a-d div p {
+            width: 21em;
+        }
+    }
+
+    @media (min-width: 720px) {
+        .l-d {
+            width: 92.5%;
+        }
+    }
+
+    @media (min-width: 1120px) {
+        .l-d {
+            width: 95%;
+        }
+    }
+
+    @media (min-width: 1600px) {
+        .l-d {
+            width: 96.5%;
+        }
+    }
 
 </style>

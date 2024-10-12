@@ -1,8 +1,12 @@
 <script>
 	import BinderElement from '$lib/c-binderElement.svelte';
     import Footer from '$lib/c-footer.svelte';
-
+    import ViewTransition from './navigation.svelte'
 </script>
+
+<div class="app">
+    <ViewTransition />
+  </div>
 
 <main>
     <h1>Welcome to my</h1>
@@ -28,6 +32,17 @@
     h1 { font-weight: 300; font-size: 2em;}
     h2 { font-weight: 200; font-size: 1.4em;}
     p  { font-weight: 100; font-size: 1.2em;}
+
+    main {
+        animation: slidein 1s ease-inao-out 1;
+    }
+
+    @keyframes slidein {
+    0% {  transform: translate(0, -20px); opacity: 0; }
+    100% { transform: translate(0, 0px); opacity: 1; }
+    }
+
+
 
     @media (min-width: 500px) {
         h1 { font-size: 3em;}
