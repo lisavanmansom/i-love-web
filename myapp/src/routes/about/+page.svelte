@@ -246,14 +246,15 @@
     <section>
         <h2>about me</h2>
         <ul>
-            <li><h3>Lisa van Mansom</h3>
+            <li class="l-1"><h3>Lisa van Mansom</h3>
             </li>
 
+            <div class="u-l">
             <li><h3>about me /</h3>
                 <img width="100" height="100" loading="lazy" alt="" src="../images/about-1.png">
             </li>
 
-            <li><h3>about me /</h3>
+            <li><h3>I am Lisa, a Netherland based frontend designer</h3>
                 <img width="100" height="100" loading="lazy" alt="" src="../images/about-2.png">
             </li>
 
@@ -265,13 +266,15 @@
                 <img width="100" height="100" loading="lazy" alt="" src="../images/about-4.png">
             </li>
 
-            <li><h3>about me /</h3>
+            <li><h3>there is nothing 
+                like a concert</h3>
                 <img width="100" height="100" loading="lazy" alt="" src="../images/about-5.png">
             </li>
 
             <li><h3>about me /</h3>
                 <img width="100" height="100" loading="lazy" alt="" src="../images/about-6.png">
             </li>
+            </div>
         </ul>
 
     </section>
@@ -421,6 +424,80 @@ main {
         }
     }
 
+    section:nth-of-type(2) h2 {
+        margin: 0 0 .5em 0;
+    }
+
+    section:nth-of-type(2) ul {
+        display: flex;
+        flex-direction: row;
+        height: 25em;
+        margin: 0 0 5em 0;
+    }
+
+    .l-1 {
+        background-color: var(--jupiter);
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        list-style: none;
+        min-width: 2.5em;
+        writing-mode: vertical-lr;
+    }
+
+    .l-1 h3 {
+        color: var(--beijo);
+        font-size: 1.1em;
+        font-weight: 300;
+        padding: 0 .35em 0 0;
+        text-align: center;
+        transform: rotate(-180deg);
+    }
+
+    .u-l {
+        display: flex; 
+        flex-direction: row;
+        list-style: none;
+        overflow: scroll;
+        overflow-y: hidden;
+        scroll-snap-type: x mandatory;
+        min-width: 93vw;
+        container: banner / inline-size;
+    }
+
+    .u-l::-webkit-scrollbar {
+        display: none;
+    }
+
+
+    .u-l li {
+        scroll-snap-align: center;
+        min-width: 100%;
+        position: relative;
+    }
+
+    .u-l li h3 {
+        align-items: center;
+        display: flex;
+        font-size: 2.25em;
+        font-weight: 300;
+        inset: 1em;
+        justify-content: center;
+        position: absolute;
+        text-align: center;
+    } 
+
+    .u-l li img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    @container banner (min-width: 600px) {
+        .u-l li {
+            min-width: 36em;
+        }
+    }
+
     @media (min-width: 720px) {
         .l-d {
             width: 92.5%;
@@ -438,5 +515,4 @@ main {
             width: 96.5%;
         }
     }
-
 </style>
