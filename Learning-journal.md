@@ -590,3 +590,95 @@ uniform float iTime;        // shader playback time (in seconds)
 ```
 
 ### WebGL uitwerking
+
+<img width="802" alt="Scherm­afbeelding 2024-10-13 om 16 02 47" src="https://github.com/user-attachments/assets/b6d4ff46-862c-42a3-b985-d33496dc948c">
+
+Om de bovenstaande uitwerking te creëren heb ik de onder staande stappen gevolgd. Ik heb de shader van shadertoy.com gedownload, veel van de onderstaande code is gegeneerd door diegene die deze shader heeft gemaakt. Ik heb de shader geimplimenteerd in het design doormiddel van aanpassing in css.
+
+#### installeren
+
+```
+// hiervoor moet cd my-app worden gedaan, anders heb je op de verkeerde plek de npm-packages
+
+npm install vite-plugin-glsl
+```
+
+#### shader.svelte (file in lib)
+
+```
+<script>
+    import { onMount, onDestroy } from 'svelte';
+    import vertexShaderSrc from '../routes/vertex.glsl?raw';
+    import fragmentShaderSrc from '../routes/fragment.glsl?raw';
+
+    let canvas;
+    let animationFrameId;
+
+   // hier zit code van de shader, ik heb de shader geimporteerd vanaf shaderToy
+
+</script>
+
+<canvas bind:this={canvas}></canvas>
+
+// styles
+
+canvas {
+        aspect-ratio: 1/1;
+        border: solid .2em #410A8B;
+        border-radius: 50%;
+        box-shadow: 0px 0px 35px rgb(149, 0, 255);
+        filter: hue-rotate(350deg) invert(1);
+        height: 20em;
+        pointer-events: none;
+        position: absolute;
+        z-index: -1;
+    }
+```
+
+#### +page.svelte (file route)
+
+```
+<script>
+    import Shader from '$lib/shader.svelte';
+</script>
+
+<main>
+    <Shader />
+</main>
+```
+
+#### fragment.glsl (file route)
+
+```
+// Fragment Shader
+precision mediump float;
+uniform float u_time;
+uniform vec2 u_resolution;
+
+void main() {
+    vec2 fragCoord = gl_FragCoord.xy;
+    float mr = min(u_resolution.x, u_resolution.y);
+    vec2 uv = (fragCoord * 2.0 - u_resolution.xy) / mr;
+
+    float d = -u_time * 0.5;
+    float a = 0.0;
+    for (float i = 0.0; i < 8.0; ++i) {
+        a += cos(i - d - a * uv.x);
+        d += sin(uv.y * i + a);
+    }
+    d += u_time * 0.5;
+    vec3 col = vec3(cos(uv * vec2(d, a)) * 0.6 + 0.4, cos(a + d) * 0.5 + 0.5);
+    col = cos(col * cos(vec3(d, a, 2.5)) * 0.5 + 0.5);
+    gl_FragColor = vec4(col, 1.0);
+}
+```
+
+#### vertex.glsl
+
+```
+// Vertex Shader
+attribute vec4 a_position;
+void main() {
+    gl_Position = a_position;
+}
+```
