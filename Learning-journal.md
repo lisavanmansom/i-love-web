@@ -518,3 +518,75 @@ Om tot conclusie te komen, ik heb eigenlijk te veel bijgedragen maar als ik het 
 - https://github.com/fdnd-agency/drop-and-heal/issues/27
 - https://github.com/fdnd-agency/drop-and-heal/issues/2
 - https://github.com/fdnd-agency/drop-and-heal/issues/1
+
+## Zondag 13/okt
+### WebGL notities
+
+**bron:** https://thebookofshaders.com
+
+### Shaders
+#### Fragment shader
+
+**Why are shaders fast?**
+Because of parallel processing. Instead of having a couple of big and powerful microprocessors, it is smarter to have lots of tiny microprocessors running in parallel at the same time. That’s what a Graphic Processor Unit (GPU) is.
+
+**What is GLSL?**
+GLSL stands for openGL Shading Language
+
+Hello world! -> In GPU-land rendering text is an overcomplicated task for a first step, instead we'll choose a bright welcoming color to shout our enthusiasm!
+
+// De gl_FragColor = vec4(0.549,0.512,1.000,1.000) -> geeft kleur aan
+
+```
+#ifdef GL_ES
+precision mediump float;
+#endif
+
+uniform float u_time;
+
+void main() {
+	gl_FragColor = vec4(0.549,0.512,1.000,1.000);
+}
+```
+
+**Substantial knowledge from lines of code:**
+1. Shader Language has a single main function that returns a color at the end. 
+2. The final pixel color is assigned to the reserved global variable gl_FragColor.
+3. This C-flavored language has built in variables (like gl_FragColor), functions and types. In this case we've just been introduced to vec4 that stands for a four dimensional vector of floating point precision. 
+4. The four arguments respond to the RED, GREEN, BLUE and ALPHA channels.
+5. Float types are vital in shaders, so the level of precision is crucial. Lower precision means faster rendering, but at the cost of quality. You can be picky and specify the precision of each variable that uses floating point. In the second line (precision mediump float;) we are setting all floats to medium precision. But we can choose to set them to low (precision lowp float;) or high (precision highp float;).
+
+#### Uniforms
+
+Uniforms are effectively global variables you set before you execute your shader program. Each thread receives the same data which it can read but cannot change. Uniforms are defined with the corresponding type at the top of the shader right after assigning the default floating point precision.
+
+**Most of the supported types:**
+1. float
+2. vec2
+3. vec3
+4. vec4
+5. mat2
+6. mat3
+7. mat4
+8. sampler2D
+9. samplerCube
+
+```
+ifdef GL_ES
+precision mediump float;
+#endif
+
+uniform vec2 u_resolution;  // Canvas size (width,height)
+uniform vec2 u_mouse;       // mouse position in screen pixels
+uniform float u_time;       // Time in seconds since load
+
+// u_time (time in seconds since the shader started), u_resolution (billboard size where the shader is being drawn) and u_mouse (mouse position inside the billboard in pixels).
+
+uniform vec3 iResolution;   // viewport resolution (in pixels)
+uniform vec4 iMouse;        // mouse pixel coords. xy: current, zw: click
+uniform float iTime;        // shader playback time (in seconds)
+
+// shader toy uniforms
+```
+
+### WebGL uitwerking
