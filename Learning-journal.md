@@ -682,3 +682,124 @@ void main() {
     gl_Position = a_position;
 }
 ```
+
+# Sprint 15 Choices, Choices
+
+## Leervragen
+* Hoe werkt react?
+* Hoe kan ik react efficient inzetten
+* Hoe kan ik mijn sterke en zwakke punten gebruiken om andere te helpen en inzicht krijgen daarin?
+
+## Maandag 14-10-2024
+**Deze sprint:**
+- Shanta van triple;
+- weluvweb: … Pieters;
+- Kevin Lewis;
+- JS-challenge;
+- Stagemarkt;
+- Workshop mentoring;
+- Het onderbouwen van keuzes van een framework, tools en workflow;
+- Presentatie van gemaakte keuze - verantwoording;
+
+**Vrije ruimte / stage:**
+- 10 weken stage -> uitvoerend werk / meeloopstage
+- 20 weken stage -> meer verantwoording, eigen projecten of deels eigen projecten / meesterproef
+
+### Techstack 
+
+User experience + development principles = development experience 
+
+**3 gebruikersgroepen:**
+- User experience 
+- content management experience
+- development experience 
+
+## Woensdag 16-10-2024
+### Kevin Lewis - Directus
+#### Choices, choices
+
+Directus: backend with custom data, designed to help you go quicker.
+
+**Purpose:**
+- Education: what it is, how it can help you;
+- Community engagement: support, structure to keep them engaged;
+- Extensions;
+
+**How does Directus make money:**
+- Direcuts cloud;
+- Professional services;
+- Directus+
+
+#### Tradeoffs
+
+The iron triangle ( fast, good or cheap ) -> Weighing the opposing force of quality, speed and cost against each other
+
+**Tradeoffs choices:**
+- Perfectionism;
+- Tech stack selection;
+- Performance vs maintainability;
+- Velocity vs flexibility;
+- Innovation vs reliability -> research & development 
+- Artificial Intelligence.
+
+**Segments in tradeoffs choices:**
+- Cost benefit analysis;
+- SWOT analysis;
+- Weighted decision matrix.
+
+**Links:**
+- https://yougotthis.io/library
+- https://directus.io/tv/directus-academy
+
+### Shyanta Vleugel - Triple
+#### Hypersolid / Triple
+
+**Core:**
+- Development;
+- Design;
+- Technical operations;
+- Data & insights;
+
+Cultuur: mooie dingen maken met leuke mensen. We delen onze ervaringen, projecten en innovaties met elkaar. We zoeken conferenties op om geïnspireerd en up-to-date te blijven. We zijn gek op feestjes, en missen geen moment om er een te vieren.
+
+**Way of working:**
+- Scrum;
+- Daily standup;
+- Retrospect;
+- Sprint review / planning;
+- Refinements;
+- Techlead & product owner.
+
+**Techstack Triple:**
+- Svelte;
+- React;
+- Typescript / Javascript.
+
+**Uniform principes:**
+- Elke competentie werkt met dezelfde taal
+- Kennissessies zijn belangrijk
+- Coding guidelines zijn deelbaar
+
+De verschillen -> Ander product, andere bijzonderheden, andere afhankelijkheden (API etc)
+
+**Wat kan invloed hebben op je techstack? (wat heeft jouw eindproduct nodig?):**
+- SEO Performance;
+- Machines met weinig performance;
+- Eenmalige website;
+- Wens voor animaties.
+
+**Tech Tips:**
+- Don’t repeat yourself -> hergebruik van oude kennis (components -> generieke basis voor hergebruik);
+- De basis is belangrijk om mee te gaan met internationale ontwikkelingen; 
+
+### Presenteren van een argument
+**Het argumentatie proces in 4 stappen:**
+- Formulier een standpunt en selecteer een argument -> wat zijn voordeel en nadelen van het argument;
+- Maak een argumentatieschema -> schematische weergeven van argumenten;
+- Beoordelen van aanvaardbaarheid;
+- Argumentatieschema uitwerken;
+
+**Doorlopend argumentatie process:**
+- Formulier een standpunt en selecteer een passend argumenten
+- Maak argumentatieschema
+- Beoordeel de aanvaardbaarheid
