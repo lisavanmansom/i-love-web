@@ -25,6 +25,9 @@
 
 
 #### Conclusie
+
+Bij de 1e voortgangsgesprekken lag vooral de focus bij de voortgang van opdrachten en bij github. Tijdens dit voortgangsgesprek ging het ook over html structuur. Vaak zie je dat veel dezelfde fout maken of moeite met hetzelfde hebben. Een aantal studenten (Sem, Thi, Diya en Giulietta) hebben ook een full-time minor waarmee ze bezig zijn en minder tijd hebben voor dit vak, bij hun kon je dat ook terug zien in hun werk. Ook zijn er veel studenten die laten weten dat ze met alles moeite hebben zoals Noah, Bronger, Sam. Het groepje Safira, Mines en Mehmet hebben ook moeite met coderen maar die stellen meer vragen en maken veel aantekeningen tijden het gesprek, wat weinig andere doen.
+
 ### Diversiteit binnen teams / voortgangsgesprekken 2
 
 **Feedback / voortgang vastgelegd per leerling:**
@@ -52,6 +55,11 @@
 
 #### Conclusie
 
+Bij de 2e voortgangsgesprekken lag vooral de focus bij de css. Er waren veel vragen over grid, flex en css selectoren. We hebben vandaag vooral gelet op classes en id's, aangezien die niet mogen worden gebruikt. Ook hebben een aantal op een verkeerde manier gebruik gemaakt van margins en paddings (Uri en Casper). Bij elk gesprek is het hamburger menu en het maken van een carousel aanbod gekomen. Noah liep tijdens het vorige voortgangsgesprek tegen SVG gebruik aan, daar loopt hij nogsteeds tegen aan. Het groepje van Safira, Mehmet en Mines is als geheel groepje geinteresseerd en stellen veel vragen en maken aantekeningen, bij hun is het gehele uur gevuld met vragen en uitleg, dit is niet het geval bij andere groepen. Bronger, Sam, Sem stellen weinig of amper vragen en maken geen aantekeningen. Bronger en Sam geven beide aan dat ze veel dingen lastig vinden maar stellen over wat ze lastig vinden niet echt veel vragen.
+
+Uit deze ronde kon ik een conclusie trekken dat veel studenten er anders instaan, de voortgangsgesprekken zijn 'verplicht' en zo zien veel leerlingen het ook. Terwijl als ze meer vragen stellen kunnen ze er ook wat uithalen, helaas mist dit bij veel studenten. Door deze gesprekken sprint de diversiteit in motivatie er vooral uit.
+
+
 ### Diversiteit binnen teams / voortgangsgesprekken 3
 
 **Feedback / voortgang vastgelegd per leerling:**
@@ -74,3 +82,7 @@
 - Uri: 1e pagina ver, maar maakt nog steeds gebruik van padding / margin en heeft nogsteeds een overflow.
 
 #### Conclusie
+
+Bij de 3e voortgangsgesprekken lag vooral de focus bij de css. Er waren veel vragen over grid, flex en css selectoren. Wat opviel was dat in deze ronde best veel afwezige waren. Veel studenten verliezen ook de focus met waarmee ze bezig zijn, bijvoorbeeld Splinter wordt beoordeelt op responsive, alleen maakt hij een creative hover effects (dat is handig als je wordt beoordeeld op surface...), ook heeft hij veel chaos in zijn files. Chaos in bestanden is een terugkomend onderwerp bij meerdere studenten, als voorbeeld Diya, kopieert en verwijdert veel codes uit verschillende plekken waardoor er totaal geen structuur is. Ook heb je studenten die gebruik maken van 'vieze code', zoals Uri, hij heeft vrijwel zijn gehele layout gecreërt d.m.v margins en paddings wat niet helemaal de bedoeling is. Het lijkt alsof hij ver is maar doordat hij veel 'vieze code' heeft valt dat erg tegen.
+
+Uit de 3e voortgangsgesprekken werd vooral duidelijk dat veel studenten last-minute veel gaan coderen. Ook werd er duidelijk dat veel feedback wat is gegeven tijdens eerdere voortgangsgesprekken of tijdens lessen niet wordt gezien als belangrijk. Aangezien veel vragen opnieuw worden gesteld door dezelfde mensen. 
