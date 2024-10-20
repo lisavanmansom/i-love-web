@@ -133,7 +133,7 @@
         border-radius: 50%;
         box-shadow: 0px 0px 35px rgb(149, 0, 255);
         filter: hue-rotate(350deg) invert(1);
-        height: 20em;
+        height: 25em;
         pointer-events: none;
         position: absolute;
         z-index: -1;
@@ -141,13 +141,13 @@
 
     @media (min-width: 500px) {
         canvas {
-            height: 25em;
+            height: 30em;
         }
     }
 
     @media (min-width: 860px) {
         canvas {
-            height: 30em;
+            height: 35em;
         }
     }
 

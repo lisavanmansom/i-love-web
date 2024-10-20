@@ -3,6 +3,7 @@
     import Footer from '$lib/c-footer.svelte';
     import Shader from '$lib/shader.svelte';
     import ViewTransition from './navigation.svelte'
+    import Text from '$lib/text.svelte';
 
 
 </script>
@@ -19,6 +20,7 @@
     <div><h2>Lisa van Mansom</h2>
     <p>frontend designer</p></div>
     <Shader />
+    <Text />
 </main>
 
 <Footer />
@@ -45,8 +47,6 @@
     h1 { font-weight: 300; font-size: 2em; z-index: 10;}
     h2 { font-weight: 200; font-size: 1.4em; z-index: 10;}
     p  { font-weight: 100; font-size: 1.2em; z-index: 10;}
-
-
 
     @media (min-width: 500px) {
         h1 { font-size: 3em;}
