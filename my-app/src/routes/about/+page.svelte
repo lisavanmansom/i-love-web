@@ -9,7 +9,7 @@
 
 <main>
     <header>
-        <h1>I am lisa, a netherland based frontend designer</h1>
+        <h1>I am lisa, a netherland based frontend developer</h1>
         <p>I am keen on funky websites, animations, eclastic designs, literature and art.</p>
     </header>
 
@@ -285,8 +285,7 @@
 <Footer />
 
 <style>
-main {
-        background-color: var(--beijo); color: var(--jupiter);
+main {  color: var(--jupiter);
         display: flex; flex-direction: column;
         align-items: center; justify-content: center;
         overflow-x: hidden;
@@ -300,21 +299,32 @@ main {
     h4 { font-weight: 200; font-size: 1.1em; order: -1; padding-left: .5em; }
     a  { text-decoration: none; cursor: pointer; color: var(--beijo);}
 
+    header {
+        position: relative;
+        height: 100vh;
+    }
+
     header p { 
-        font-size: 2.5em; 
+        /* font-size: 2.5em;  */
         font-weight: 200; 
         padding: 1.5em .5em .5em .5em;
+    }
+
+    header h1, header p {
+        font-size: 2em;
+        
     }
 
     section {
         align-items: start; justify-content: space-evenly;
         display: flex; flex-direction: column;
-        margin: 4em 0 0 3.5em;
+        margin: 0 0 0 3.5em;
         width: 100%;
     }
 
     section:nth-of-type(1) {
         min-height: 45em;
+        margin: 2em 0 0 3.5em;
     }
 
     .l-d { 

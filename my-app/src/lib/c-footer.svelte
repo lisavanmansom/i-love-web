@@ -10,13 +10,17 @@
 
 <style>
     footer {
-        background-color: var(--jupiter); color: var(--beijo);
-        border-top-left-radius: 1em; border-top-right-radius: 1em;
+        background-color: #fff; color: var(--beijo);
+        /* border-top-left-radius: 1em; border-top-right-radius: 1em; */
+        border-top: .1em solid var(--kalimba);
         display: flex;
         align-items: center; justify-content: center;
         overflow-y: hidden;
-        width: 100%; min-height: auto;
+        width: 100%; height: 2em;
         text-transform: uppercase;
+        box-shadow: 0px 0px 140px rgb(17, 255, 0);
+        filter: drop-shadow(1px 1px 30px var(--jupiter));
+        filter: saturate(350%);
     }
 
     ul {
@@ -24,12 +28,12 @@
         display: flex; flex-direction: row;
         align-items: center; justify-content: center;
         flex-wrap: wrap; gap: 1em;
-        padding: 1.5em 0;
+        padding: 1.2em 0;
     }
 
     li {margin: 0}
 
-    a { color: inherit; font-weight: 200; font-size: 1em; 
+    a { color: inherit; font-weight: 200; font-size: .5em; 
         text-decoration: none;}
 
         @media (min-width:700px) {

@@ -128,16 +128,15 @@
 
 <style>
     canvas {
-        aspect-ratio: 1/1;
-        border: solid .2em #410A8B;
-        border-radius: 50%;
+        border-bottom: solid .2em #410A8B;
         box-shadow: 0px 0px 35px rgb(149, 0, 255);
         filter: hue-rotate(350deg) invert(1) saturate(350%);
-        height: 25em;
+        min-height: 100%;
+        width: 100%;
         pointer-events: none;
         position: absolute;
         z-index: -1;
-        transition: all .5s ease-in-out;
+        top: 0;
     }
 
     @media (min-width: 500px) {
