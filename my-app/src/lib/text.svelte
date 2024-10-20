@@ -50,7 +50,7 @@
 
     @container text-banner (min-width: 700px) {
         svg:nth-of-type(1) { width: 70%; height: 40%; }
-        svg:nth-of-type(2) { width: 30%; height: 20%; margin: 11.5em 0 0 0; }
+        svg:nth-of-type(2) { width: 30%; height: 20%; margin: 9.2em 0 0 0; }
         svg:nth-of-type(3) { width: 100%; height: 40%; }
     }
     
