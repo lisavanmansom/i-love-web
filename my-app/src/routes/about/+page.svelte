@@ -1,6 +1,7 @@
 <script>
     import Footer from '$lib/c-footer.svelte';
-    import ViewTransition from '../navigation.svelte'
+    import ViewTransition from '../navigation.svelte';
+    import ShaderAbout from '$lib/shader-about.svelte';
 </script>
 
 <div class="app">
@@ -18,7 +19,8 @@
 
         <div class="l-d">
         <article>
-            <a href="https://github.com/lisavanmansom/proof-of-concept" class="a-d">
+            <div class="a-d">
+            <a href="https://github.com/lisavanmansom/proof-of-concept">
             <h3>Fresk digital</h3>
             <h4>frontend design</h4>
                 <div>
@@ -32,11 +34,13 @@
                     </ul>
                 </div>
             </a>
+            </div>
             <img width="100" height="100" alt="website for fresk digital" src="../images/fresk-digital.png">
         </article>
 
         <article>
-            <a href="https://github.com/lisavanmansom/pleasurable-ui" class="a-d">
+            <div class="a-d"> 
+            <a href="https://github.com/lisavanmansom/pleasurable-ui">
             <h3>Tumi Mundo</h3>
             <h4>frontend design</h4>
                 <div>
@@ -49,11 +53,13 @@
                     </ul>
                     </div>
                 </a>
+            </div>
             <img width="100" height="100" loading="lazy" alt="website for Tumi Mundo" src="../images/tumi-Mundo.png">
         </article>
 
         <article>
-            <a href="https://github.com/lisavanmansom/fix-the-flow-interactive-website" class="a-d">
+            <div class="a-d">
+            <a href="https://github.com/lisavanmansom/fix-the-flow-interactive-website">
             <h3>Funda</h3>
             <h4>frontend design</h4>
                 <div>
@@ -66,11 +72,13 @@
                     </ul>
                 </div>
             </a>
+            </div>
             <img width="100" height="100" loading="lazy" alt="website for funda" src="../images/funda.png">
         </article>
 
         <article>
-            <a href="https://github.com/lisavanmansom/the-startup-website-bnr" class="a-d">
+            <div class="a-d">
+            <a href="https://github.com/lisavanmansom/the-startup-website-bnr">
                 <h3>BNR</h3>
                 <h4>frontend design</h4>
                 <div>
@@ -83,11 +91,13 @@
                     </ul>
                 </div>
             </a>
+            </div>
             <img width="100" height="100" loading="lazy" alt="website for bnr" src="../images/bnr.png">
         </article>
 
         <article>
-            <a href="https://github.com/lisavanmansom/connect-your-tribe-profile-card" class="a-d">
+            <div class="a-d">
+            <a href="https://github.com/lisavanmansom/connect-your-tribe-profile-card">
                 <h3>Profile card / 2</h3>
                 <h4>frontend design</h4>
                 <div>
@@ -99,11 +109,13 @@
                     </ul>
                 </div>
             </a>
+            </div>
             <img width="100" height="100" loading="lazy" alt="" src="../images/profilecard-2.png">
         </article>
 
         <article>
-            <a href="https://github.com/lisavanmansom/connect-your-tribe-squad-page" class="a-d">
+            <div class="a-d">
+            <a href="https://github.com/lisavanmansom/connect-your-tribe-squad-page">
             <h3>Squadpage / 2</h3>
             <h4>frontend design</h4>
                 <div>
@@ -115,11 +127,13 @@
                     </ul>
                 </div>
             </a>
+            </div>
             <img width="100" height="100" loading="lazy" alt="website for fresk digital" src="../images/fresk-digital.png">
         </article>
 
         <article>
-            <a href="https://github.com/lisavanmansom/tribeforlife-squadpage" class="a-d">
+            <div class="a-d">
+            <a href="https://github.com/lisavanmansom/tribeforlife-squadpage">
             <h3>Squadpage / 1</h3>
             <h4>frontend design</h4>
                 <div>
@@ -131,6 +145,7 @@
                     </ul>
                 </div>
             </a>
+            </div>
             <img width="100" height="100" loading="lazy" alt="#" src="../images/squadpage-2.png">
         </article>
 
@@ -241,6 +256,7 @@
             <img width="100" height="100" loading="lazy" alt="" src="../images/drawings-2.png">
         </article>
     </div>
+    <ShaderAbout />
     </section>
 
     <section>
@@ -293,236 +309,64 @@ main {  color: var(--jupiter);
         text-transform: uppercase;
     }
     
-    h1 { font-weight: 200; font-size: 2.5em; padding: .5em;}
-    h2 { font-weight: 200; font-size: 2.2em; text-align: start;}
-    h3 { font-weight: 400; font-size: 1.9em; padding: 0 0 .25em .25em; }
-    h4 { font-weight: 200; font-size: 1.1em; order: -1; padding-left: .5em; }
+    h1 { font-weight: 200; font-size: 2.5em; }
+    h2 { font-weight: 200; font-size: 2.2em; }
+    h3 { font-weight: 400; font-size: 1.9em; }
+    h4 { font-weight: 200; font-size: 1.1em; }
     a  { text-decoration: none; cursor: pointer; color: var(--beijo);}
 
-    header {
-        position: relative;
-        height: 100vh;
-    }
+   section:nth-of-type(1) {
+    position: relative;
+   }
 
-    header p { 
-        /* font-size: 2.5em;  */
-        font-weight: 200; 
-        padding: 1.5em .5em .5em .5em;
-    }
+   section:nth-of-type(1) h2 {
+    background-color: var(--horizonte);
+    color: var(--beijo);
+    height: 100%;
+    width: 100%;
+   }
 
-    header h1, header p {
-        font-size: 2em;
-        
-    }
+   .l-d {
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.418), rgba(124, 90, 196, 0.304));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+   }
 
-    section {
-        align-items: start; justify-content: space-evenly;
-        display: flex; flex-direction: column;
-        margin: 0 0 0 3.5em;
-        width: 100%;
-    }
+   section:nth-of-type(1) article {
+    border: .1em solid var(--horizonte);
+    color: var(--beijo);
+    display: flex;
+    flex-direction: column;
+   }
 
-    section:nth-of-type(1) {
-        min-height: 45em;
-        margin: 2em 0 0 3.5em;
-    }
+   /* div in article, staat om de teskt heen */
+   .a-d {
+    background-color: var(--horizonte);
+    box-shadow: 0px 0px 140px rgb(17, 255, 0);
+    display: flex;
+    flex-direction: column;
+   }
 
-    .l-d { 
-        display: flex;
-        flex-wrap: nowrap;
-        gap: 1.5em;
-        overflow: scroll;
-        width: 90%;
-        scroll-snap-type: x mandatory;
-        container: card-banner / inline-size;
-    }
-        
-    article { 
-        align-items: center;
-        background-color: var(--areia);
-        border: .1em solid var(--beijo);
-        border-radius: 10px;
-        color: var(--beijo);
-        display: flex;
-        flex-direction: column;
-        gap: 1em;
-        height: 45em;
-        line-height: 1.8em;
-        padding: 1.25em .5em .5em .5em;
-        min-width: 90%;
-        max-width: 24.75em;
-        scroll-snap-align: center;
-    }
+   .a-d a {
+    display: flex;
+    flex-direction: column;
+   }
 
-    article img {
-        border: .1em solid var(--beijo);
-        border-radius: 10px;
-        min-height: 25%;
-        object-fit: cover;
-        order: -1;
-        width: 95%;
-        max-width: 22.5em;
-    }
+   .a-d a div {
+    display: none;
+   }
+   
+   section:nth-of-type(1) article img {
+    height: 20em;
+    object-fit: cover;
+    order: -2;
+    width: 10em;
+    z-index: 1;
+   }
 
-    .a-d {
-        border: .1em solid var(--beijo);        
-        border-radius: 10px;
-        display: flex;
-        flex-direction: column;
-        height: 29.25em;
-        padding: .5em 0;
-        width: 95%;
-        max-width: 22.5em;
-    }
-
-    .a-d div {
-        border-top: .1em solid var(--beijo);
-        display: flex;
-        flex-direction: column;
-        gap: .5em;
-        line-height: 1.5em;
-        padding: .5em;
-    }
-
-    article p {
-        font-size: 1em;        
-    }
-
-    section:nth-of-type(1) li {
-        font-weight: 100;
-        margin-left: 1.5em ;
-    }
-
-    section:nth-of-type(1) li:first-of-type { 
-        font-weight: 400; 
-        margin: 0;
-        list-style: none;
-    }
-
-    article:nth-last-of-type(2n) {background-color: var(--kalimba);}
-	article:nth-last-of-type(3n) {background-color: var(--jupiter);}
-    article:nth-last-of-type(4n) {background-color: var(--solitario);}
-
-    @container card-banner (min-width: 450px) {
-        article {
-            min-width: 24.75em;
-        }
-    }
-
-    @container card-banner (min-width: 750px) {
-        article {
-            min-width: 38em;
-            height: 37em;
-        }
-
-        article img {
-            min-height: 52%;
-            max-width: unset;
-        }
-
-        .a-d {
-            max-height: 15.5em;
-            min-width: 95%;
-        }
-
-        .a-d div {
-            flex-direction: row;
-        }
-
-        .a-d div p {
-            width: 21em;
-        }
-    }
-
-    section:nth-of-type(2) h2 {
-        margin: 0 0 .5em 0;
-    }
-
-    section:nth-of-type(2) ul {
-        display: flex;
-        flex-direction: row;
-        height: 25em;
-        margin: 0 0 5em 0;
-    }
-
-    .l-1 {
-        background-color: var(--jupiter);
-        border-top-left-radius: 10px;
-        border-bottom-left-radius: 10px;
-        list-style: none;
-        min-width: 2.5em;
-        writing-mode: vertical-lr;
-    }
-
-    .l-1 h3 {
-        color: var(--beijo);
-        font-size: 1.1em;
-        font-weight: 300;
-        padding: 0 .35em 0 0;
-        text-align: center;
-        transform: rotate(-180deg);
-    }
-
-    .u-l {
-        display: flex; 
-        flex-direction: row;
-        list-style: none;
-        overflow: scroll;
-        overflow-y: hidden;
-        scroll-snap-type: x mandatory;
-        min-width: 93vw;
-        container: banner / inline-size;
-    }
-
-    .u-l::-webkit-scrollbar {
-        display: none;
-    }
+   section:nth-of-type(1) article h4 {
+    order: -1;
+   }
 
 
-    .u-l li {
-        scroll-snap-align: center;
-        min-width: 100%;
-        position: relative;
-    }
-
-    .u-l li h3 {
-        align-items: center;
-        display: flex;
-        font-size: 2.25em;
-        font-weight: 300;
-        inset: 1em;
-        justify-content: center;
-        position: absolute;
-        text-align: center;
-    } 
-
-    .u-l li img {
-        height: 100%;
-        width: 100%;
-        object-fit: cover;
-    }
-
-    @container banner (min-width: 600px) {
-        .u-l li {
-            min-width: 36em;
-        }
-    }
-
-    @media (min-width: 720px) {
-        .l-d {
-            width: 92.5%;
-        }
-    }
-
-    @media (min-width: 1120px) {
-        .l-d {
-            width: 95%;
-        }
-    }
-
-    @media (min-width: 1600px) {
-        .l-d {
-            width: 96.5%;
-        }
-    }
 </style>
