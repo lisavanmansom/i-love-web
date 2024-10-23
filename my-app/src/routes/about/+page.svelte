@@ -16,42 +16,31 @@
 
     <section>
         <h2>Selected works</h2>
+        <p> Lorem ipsumfunky websites, animatipsumfun Lorem ipsumfunky websites, animatipsumfun animatipsumfun Lorem ipsumfunky websites, anim  </p>
 
         <div class="l-d">
         <article>
             <div class="a-d">
-            <a href="https://github.com/lisavanmansom/proof-of-concept">
-            <h3>Fresk digital</h3>
-            <h4>frontend design</h4>
-                <div>
-                    <p>For Fresk digital I designed and builded a data overviewpage. On this page it shows data from Google analytics. This project includes a loginpage, preface-page and a dashboard-page.</p>
-                    <ul>
-                        <li><bold>Tools</bold></li>
-                        <li>Express, EJS & Node</li>
-                        <li>CSS & JS</li>
-                        <li>Chart.js</li>
-                        <li>Dotenv</li>
-                    </ul>
-                </div>
-            </a>
+                <a href="https://github.com/lisavanmansom/proof-of-concept">
+                    <div>
+                        <h3>Fresk digital</h3>
+                        <h4>June 2024</h4>
+                        <p>Dotenv / chart.js / node & express </p>
+                    </div>
+                </a>
             </div>
-            <img width="100" height="100" alt="website for fresk digital" src="../images/fresk-digital.png">
+            <img width="100" height="100" alt="website for fresk digital" src="../images/fresk-1.png">
+            <img width="100" height="100" alt="website for fresk digital" src="../images/fresk-2.png">
         </article>
 
         <article>
             <div class="a-d"> 
             <a href="https://github.com/lisavanmansom/pleasurable-ui">
-            <h3>Tumi Mundo</h3>
-            <h4>frontend design</h4>
                 <div>
-                    <p>Tumi Mundo is comparable to Duolingo, only Tumi Mundo is for children. For Tumi Mundo I designed and builded a lessons page, here you can navigate to stories, lessons and playlists with stories</p>
-                    <ul>
-                        <li><bold>Tools</bold></li>
-                        <li>Express, EJS & Node</li>
-                        <li>CSS & JS</li>
-                        <li>GSAP</li>
-                    </ul>
-                    </div>
+                    <h3>Tumi Mundo</h3>
+                    <h4>May 2024</h4>
+                    <p>GSAP / node & express </p>
+                </div>
                 </a>
             </div>
             <img width="100" height="100" loading="lazy" alt="website for Tumi Mundo" src="../images/tumi-Mundo.png">
@@ -60,16 +49,10 @@
         <article>
             <div class="a-d">
             <a href="https://github.com/lisavanmansom/fix-the-flow-interactive-website">
-            <h3>Funda</h3>
-            <h4>frontend design</h4>
                 <div>
-                    <p>For Funda I designed and builded a saved houses page, here users can view their liked houses and share it with others.</p>
-                    <ul>
-                        <li><bold>Tools</bold></li>
-                        <li>HTML</li>
-                        <li>CSS</li>
-                        <li>JavaScript</li>
-                    </ul>
+                    <h3>Funda</h3>
+                    <h4>December 2023</h4>
+                    <p>html / css / Javascript</p>
                 </div>
             </a>
             </div>
@@ -79,16 +62,10 @@
         <article>
             <div class="a-d">
             <a href="https://github.com/lisavanmansom/the-startup-website-bnr">
-                <h3>BNR</h3>
-                <h4>frontend design</h4>
                 <div>
-                    <p>For BNR I designed and builded an page where you can listen live to their radio, I have also made a page with info about their app.</p>
-                    <ul>
-                        <li><bold>Tools</bold></li>
-                        <li>HTML</li>
-                        <li>CSS</li>
-                        <li>JavaScript</li>
-                    </ul>
+                    <h3>BNR</h3>
+                    <h4>January 2023</h4>
+                    <p>html / css / Javascript</p>
                 </div>
             </a>
             </div>
@@ -98,15 +75,10 @@
         <article>
             <div class="a-d">
             <a href="https://github.com/lisavanmansom/connect-your-tribe-profile-card">
-                <h3>Profile card / 2</h3>
-                <h4>frontend design</h4>
                 <div>
-                    <p>As a profile card I decided to take inspiration from grotesque, maximallism styles. On the profile card is basic information about me</p>
-                    <ul>
-                        <li><bold>Tools</bold></li>
-                        <li>Express, EJS & Node</li>
-                        <li>CSS & JS</li>
-                    </ul>
+                    <h3>Profile card / 2</h3>
+                    <h4>February 2024</h4>
+                    <p>node & express</p>
                 </div>
             </a>
             </div>
@@ -116,15 +88,10 @@
         <article>
             <div class="a-d">
             <a href="https://github.com/lisavanmansom/connect-your-tribe-squad-page">
-            <h3>Squadpage / 2</h3>
-            <h4>frontend design</h4>
                 <div>
-                    <p>museam squadpage</p>
-                    <ul>
-                        <li><bold>Tools</bold></li>
-                        <li>Express, EJS & Node</li>
-                        <li>CSS & JS</li>
-                    </ul>
+                    <h3>Squadpage museum</h3>
+                    <h4>February 2024</h4>
+                    <p>node & express</p>
                 </div>
             </a>
             </div>
@@ -134,15 +101,10 @@
         <article>
             <div class="a-d">
             <a href="https://github.com/lisavanmansom/tribeforlife-squadpage">
-            <h3>Squadpage / 1</h3>
-            <h4>frontend design</h4>
                 <div>
-                    <p>On this squadpage you can find all the members that are part of the squad and get in contact with them. This was a group task in which 5 people took part.</p>
-                    <ul>
-                        <li><bold>Tools</bold></li>
-                        <li>Express, EJS & Node</li>
-                        <li>CSS & JS</li>
-                    </ul>
+                    <h3>Squadpage</h3>
+                    <h4>September 2024</h4>
+                    <p>Sveltekit</p>
                 </div>
             </a>
             </div>
@@ -310,16 +272,19 @@ main {  color: var(--jupiter);
     }
     
     h1 { font-weight: 200; font-size: 2.5em; }
-    h2 { font-weight: 200; font-size: 2.2em; }
-    h3 { font-weight: 400; font-size: 1.9em; }
-    h4 { font-weight: 200; font-size: 1.1em; }
+    h2 { font-weight: 200; font-size: 2em; }
+    h3 { font-weight: 400; font-size: 1em; }
+    h4 { font-weight: 100; font-size: .9em; }
+    p  { font-weight: 100; font-size: .8em; }
     a  { text-decoration: none; cursor: pointer; color: var(--beijo);}
 
    section:nth-of-type(1) {
     position: relative;
+    width: 100%;
    }
 
-   section:nth-of-type(1) h2 {
+   section:nth-of-type(1) h2,
+   section:nth-of-type(1) > p {
     background-color: var(--horizonte);
     color: var(--beijo);
     height: 100%;
@@ -353,8 +318,19 @@ main {  color: var(--jupiter);
    }
 
    .a-d a div {
-    display: none;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    height: 4em;
+    justify-content: space-between;
+    padding: .5em .25em;
    }
+
+    .a-d a div p {
+      font-weight: 100; 
+      font-size: .8em;
+      width: 100%;
+    }
    
    section:nth-of-type(1) article img {
     height: 20em;
@@ -363,10 +339,5 @@ main {  color: var(--jupiter);
     width: 10em;
     z-index: 1;
    }
-
-   section:nth-of-type(1) article h4 {
-    order: -1;
-   }
-
 
 </style>

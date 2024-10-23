@@ -130,7 +130,7 @@
     canvas {
         border-bottom: solid .2em #410A8B;
         box-shadow: 0px 0px 35px rgb(149, 0, 255);
-        filter: hue-rotate(350deg) invert(1) saturate(350%);
+        filter: hue-rotate(230deg) invert(1) saturate(350%);
         min-height: 100%;
         width: 100%;
         pointer-events: none;
