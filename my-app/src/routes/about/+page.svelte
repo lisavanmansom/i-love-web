@@ -1,7 +1,10 @@
 <script>
     import Footer from '$lib/c-footer.svelte';
+    import TextAbout from '$lib/text-aboutme.svelte';
     import ViewTransition from '../navigation.svelte';
     import ShaderAbout from '$lib/shader-about.svelte';
+
+    let current = 1;
 </script>
 
 <div class="app">
@@ -10,13 +13,17 @@
 
 <main>
     <header>
-        <h1>I am lisa, a netherland based frontend developer</h1>
+        <h1>Hi, I am Lisa van Mansom</h1>
+        <p>Frontend developer</p>
         <p>I am keen on funky websites, animations, eclastic designs, literature and art.</p>
+        <img width="100" height="100" loading="lazy" alt="" src="../images/about-1.png">
     </header>
 
     <section>
-        <h2>Selected works</h2>
-        <p> Lorem ipsumfunky websites, animatipsumfun Lorem ipsumfunky websites, animatipsumfun animatipsumfun Lorem ipsumfunky websites, anim  </p>
+        <hgroup>
+            <h2>Selected works</h2>
+            <p> I've worked on the integration of several websites, focusing solely on the front-end interface. At times, I worked from mockups provided by designers, while other times I handled the UX/UI myself. </p>
+        </hgroup>
 
         <div class="l-d">
         <article>
@@ -29,8 +36,10 @@
                     </div>
                 </a>
             </div>
-            <img width="100" height="100" alt="website for fresk digital" src="../images/fresk-1.png">
-            <img width="100" height="100" alt="website for fresk digital" src="../images/fresk-2.png">
+            <div>
+                <img width="100" height="100" alt="website for fresk digital, data dashboard" src="../images/fresk-1.png">
+                <img width="100" height="100" alt="website for fresk digital, login screen" src="../images/fresk-2.png">
+            </div>
         </article>
 
         <article>
@@ -43,7 +52,11 @@
                 </div>
                 </a>
             </div>
-            <img width="100" height="100" loading="lazy" alt="website for Tumi Mundo" src="../images/tumi-Mundo.png">
+            <div>
+                <img width="100" height="100" loading="lazy" alt="website for Tumi Mundo" src="../images/tumi-1.png">
+                <img width="100" height="100" loading="lazy" alt="website for Tumi Mundo" src="../images/tumi-2.png">
+            </div>
+            
         </article>
 
         <article>
@@ -56,7 +69,26 @@
                 </div>
             </a>
             </div>
-            <img width="100" height="100" loading="lazy" alt="website for funda" src="../images/funda.png">
+            <div>
+                <img width="100" height="100" loading="lazy" alt="website for funda" src="../images/funda-1.png">
+                <img width="100" height="100" loading="lazy" alt="website for funda" src="../images/funda-2.png">
+            </div> 
+        </article>
+
+        <article>
+            <div class="a-d">
+            <a href="https://github.com/lisavanmansom/drop-and-heal">
+                <div>
+                    <h3>Drop & Heal</h3>
+                    <h4>October 2023</h4>
+                    <p>Sveltekit / React </p>
+                </div>
+            </a>
+            </div>
+            <div>
+                <img width="100" height="100" loading="lazy" alt="website for drop and heal, rouwtaak 3" src="../images/dropheal-1.png">
+                <img width="100" height="100" loading="lazy" alt="website for drop and heal, rouwtaak 2" src="../images/dropheal-2.png">
+            </div>
         </article>
 
         <article>
@@ -69,7 +101,10 @@
                 </div>
             </a>
             </div>
-            <img width="100" height="100" loading="lazy" alt="website for bnr" src="../images/bnr.png">
+            <div>
+                <img width="100" height="100" loading="lazy" alt="website for bnr" src="../images/bnr-1.png">
+                <img width="100" height="100" loading="lazy" alt="website for bnr" src="../images/bnr-2.png">
+            </div>
         </article>
 
         <article>
@@ -82,7 +117,11 @@
                 </div>
             </a>
             </div>
-            <img width="100" height="100" loading="lazy" alt="" src="../images/profilecard-2.png">
+            <div>
+                <img width="100" height="100" loading="lazy" alt="" src="../images/pf-1.png">
+                <img width="100" height="100" loading="lazy" alt="" src="../images/pf-2.png">
+            </div>
+            
         </article>
 
         <article>
@@ -95,7 +134,10 @@
                 </div>
             </a>
             </div>
-            <img width="100" height="100" loading="lazy" alt="website for fresk digital" src="../images/fresk-digital.png">
+            <div>
+                <img width="100" height="100" loading="lazy" alt="" src="../images/museum-2.png">
+                <img width="100" height="100" loading="lazy" alt="" src="../images/museum-1.png">
+            </div>
         </article>
 
         <article>
@@ -108,153 +150,38 @@
                 </div>
             </a>
             </div>
-            <img width="100" height="100" loading="lazy" alt="#" src="../images/squadpage-2.png">
+            <div>
+                <img width="100" height="100" loading="lazy" alt="#" src="../images/squadw-1.png">
+                <img width="100" height="100" loading="lazy" alt="#" src="../images/squadw-2.png">
+            </div> 
         </article>
-
-        <article>
-            <div class="a-d">
-            <h3>Intership Tigioo</h3>
-            <h4>graphic design</h4>
-                <div>
-                    <ul>
-                        <li><bold>Tools</bold></li>
-                        <li>Adobe ID</li>
-                        <li>Adobe Illustrator</li>
-                        <li>Adobe Photoshop</li>
-                        <li>Adobe DN</li>
-                    </ul>
-                </div>
-            </div>
-            <img width="100" height="100" loading="lazy" alt="#" src="../images/tigioo.png">
-        </article>
-
-        <article>
-            <div class="a-d">
-            <h3>Intership Positive things</h3>
-            <h4>graphic design</h4>
-                <div>
-                    <ul>
-                        <li><bold>Tools</bold></li>
-                        <li>Adobe ID</li>
-                        <li>Adobe Illustrator</li>
-                        <li>Adobe Photoshop</li>
-                        <li>Adobe DN</li>
-                    </ul>
-                </div>
-            </div>
-            <img width="100" height="100" loading="lazy" alt="" src="../images/pt.png">
-        </article>
-
-        <article>
-            <div class="a-d">
-            <h3>Graduate project</h3>
-            <h4>graphic design</h4>
-                <div>
-                    <ul>
-                        <li><bold>Tools</bold></li>
-                        <li>Adobe ID</li>
-                        <li>Adobe Illustrator</li>
-                        <li>Adobe Photoshop</li>
-                        <li>Adobe DN</li>
-                    </ul>
-                </div>
-            </div>
-            <img width="100" height="100" loading="lazy" alt="" src="../images/ukiyo-ki.png">
-        </article>
-
-        <article>
-            <div class="a-d">
-            <h3>Concept Redesign</h3>
-            <h4>graphic design</h4>
-                <div>
-                    <ul>
-                        <li><bold>Tools</bold></li>
-                        <li>Adobe ID</li>
-                        <li>Adobe Illustrator</li>
-                        <li>Adobe Photoshop</li>
-                        <li>Adobe DN</li>
-                    </ul>
-                </div>
-            </div>
-            <img width="100" height="100" loading="lazy" alt="" src="../images/concept-1.png">
-        </article>
-
-        <article>
-            <div class="a-d">
-            <h3>Concept Squadpage</h3>
-            <h4>frontend design</h4>
-                <div>
-                    <ul>
-                        <li><bold>Tools</bold></li>
-                        <li>Figma</li>
-                    </ul>
-                </div>
-            </div>
-            <img width="100" height="100" loading="lazy" alt="" src="../images/concept-squadpage.png">
-        </article>
-
-        <article>
-            <div class="a-d">
-            <h3>Other projects</h3>
-            <h4>graphic design</h4>
-                <div>
-                    <ul>
-                        <li><bold>Tools</bold></li>
-                        <li>Adobe Photoshop</li>
-                        <li>Adobe DN</li>
-                    </ul>
-                </div>
-            </div>
-            <img width="100" height="100" loading="lazy" alt="" src="../images/other.png">
-        </article>
-
-        <article>
-            <h3>Drawings / 1</h3>
-            <img width="100" height="100" loading="lazy" alt="" src="../images/drawings-1.png">
-        </article>
-
-        <article>
-            <h3>Drawings / 2</h3>
-            <img width="100" height="100" loading="lazy" alt="" src="../images/drawings-2.png">
-        </article>
+        
     </div>
+
     <ShaderAbout />
+
     </section>
 
     <section>
-        <h2>about me</h2>
-        <ul>
-            <li class="l-1"><h3>Lisa van Mansom</h3>
-            </li>
+        <article>
+            <h2>about me</h2>
+            <p>Madison Blackstone is a director of brand marketing, with experience managing global teams and multimillion-dollar campaigns. Her background in brand strategy, visual design, and account management informs her mindful but competitive approach. Madison is fueled by her passion for understanding the nuances of cross-cultural advertising. She considers herself a "forever student," eager to both build on her academic foundations in psychology and sociology, and stays in tune with the latest digital marketing strategies through continued coursework.</p>
+        </article>
 
-            <div class="u-l">
-            <li><h3>about me /</h3>
-                <img width="100" height="100" loading="lazy" alt="" src="../images/about-1.png">
-            </li>
+        <article>
+            <h2>experience</h2>
+            <p>Madison Blackstone is a director of brand marketing, with experience managing global teams and multimillion-dollar campaigns. Her background in brand strategy, visual design, and account management informs her mindful but competitive approach. Madison is fueled by her passion for understanding the nuances of cross-cultural advertising. She considers herself a "forever student," eager to both build on her academic foundations in psychology and sociology, and stays in tune with the latest digital marketing strategies through continued coursework.</p>
+        </article>
 
-            <li><h3>I am Lisa, a Netherland based frontend designer</h3>
-                <img width="100" height="100" loading="lazy" alt="" src="../images/about-2.png">
-            </li>
-
-            <li><h3>about me /</h3>
-                <img width="100" height="100" loading="lazy" alt="" src="../images/about-3.png">
-            </li>
-
-            <li><h3>about me /</h3>
-                <img width="100" height="100" loading="lazy" alt="" src="../images/about-4.png">
-            </li>
-
-            <li><h3>there is nothing 
-                like a concert</h3>
-                <img width="100" height="100" loading="lazy" alt="" src="../images/about-5.png">
-            </li>
-
-            <li><h3>about me /</h3>
-                <img width="100" height="100" loading="lazy" alt="" src="../images/about-6.png">
-            </li>
-            </div>
-        </ul>
-
+        <article>
+            <h2>contact</h2>
+            <ul>
+                <li><a href="https://github.com/lisavanmansom">Github</a></li>
+                <li><a href="https://www.linkedin.com/in/lisa-van-mansom-b78059231/">Linkedin</a></li>
+                <li><a href="mailto:lisavanmansom@gmail.com">Mail</a></li>
+                <li><a href="tel:0642629104">0642629104</a></li>
+            </ul>
+        </article>
     </section>
 
     
@@ -262,8 +189,8 @@
 
 <Footer />
 
-<style>
-main {  color: var(--jupiter);
+<style lang="postcss">
+main {  color: var(--horizonte);
         display: flex; flex-direction: column;
         align-items: center; justify-content: center;
         overflow-x: hidden;
@@ -271,43 +198,65 @@ main {  color: var(--jupiter);
         text-transform: uppercase;
     }
     
-    h1 { font-weight: 200; font-size: 2.5em; }
+    h1 { font-weight: 200; font-size: 1.5em; }
     h2 { font-weight: 200; font-size: 2em; }
     h3 { font-weight: 400; font-size: 1em; }
     h4 { font-weight: 100; font-size: .9em; }
     p  { font-weight: 100; font-size: .8em; }
     a  { text-decoration: none; cursor: pointer; color: var(--beijo);}
 
+    header {
+        display: flex;
+        flex-direction: column;
+    }
+
    section:nth-of-type(1) {
     position: relative;
     width: 100%;
+    /* padding: .5em .25em; */
+    /* box-shadow: 0px 0px 140px rgb(17, 255, 0); */
    }
 
-   section:nth-of-type(1) h2,
-   section:nth-of-type(1) > p {
+   section:nth-of-type(1) hgroup {
     background-color: var(--horizonte);
-    color: var(--beijo);
-    height: 100%;
     width: 100%;
+    color: var(--beijo);
+   }
+
+   section:nth-of-type(1) hgroup h2 {
+    padding: .5em .25em 0;
+   }
+
+   section:nth-of-type(1) hgroup p {
+    padding: .5em 1em;
+    max-width: 75ch;
    }
 
    .l-d {
     background: linear-gradient(135deg, rgba(255, 255, 255, 0.418), rgba(124, 90, 196, 0.304));
     backdrop-filter: blur(10px);
+    container: list-banner / inline-size;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     -webkit-backdrop-filter: blur(10px);
    }
 
    section:nth-of-type(1) article {
+    align-items: center;
     border: .1em solid var(--horizonte);
     color: var(--beijo);
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    min-height: 34em;
+    position: relative;
    }
 
-   /* div in article, staat om de teskt heen */
+   /* div in article, staat om de a heen */
    .a-d {
     background-color: var(--horizonte);
-    box-shadow: 0px 0px 140px rgb(17, 255, 0);
+    /* box-shadow: 0px 0px 140px rgb(17, 255, 0); */
     display: flex;
     flex-direction: column;
    }
@@ -324,6 +273,7 @@ main {  color: var(--jupiter);
     height: 4em;
     justify-content: space-between;
     padding: .5em .25em;
+    width: 100vw;
    }
 
     .a-d a div p {
@@ -333,11 +283,113 @@ main {  color: var(--jupiter);
     }
    
    section:nth-of-type(1) article img {
-    height: 20em;
+    height: 10em;
     object-fit: cover;
-    order: -2;
     width: 10em;
-    z-index: 1;
    }
+
+   section:nth-of-type(1) article div:nth-of-type(2) {
+     height: 10em;
+     order: -1;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     transition: all 5s ease-in-out;
+   }
+
+   section:nth-of-type(1) article div:nth-of-type(2):hover {
+     img:nth-of-type(1) {
+        transform: matrix(2.1, 0, 0.6, 2.3, -30, 213);
+     }
+    img:nth-of-type(2) {
+        transform: matrix(2.1, 0, -0.4, 2, 46, 101);
+    }
+   }
+
+   section:nth-of-type(1) article img:nth-of-type(1) {
+    transform: matrix(2.1, 0, -0.4, 2, 46, 101);
+    position: absolute;
+   }
+
+   section:nth-of-type(1) article img:nth-of-type(2) {
+     transform: matrix(2.1, 0, 0.6, 2.3, -30, 213);
+     position: absolute;
+   }
+
+   /* section 2 styling // about me */
+   section:nth-of-type(2) {
+    color: var(--horizonte);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    padding: 0 2em;
+    margin: 5em 0 5em 0;
+    container: ab-banner / inline-size;
+   }
+   section:nth-of-type(2) article {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+   }
+
+   section:nth-of-type(2) h2 {
+    width: 80%;
+    border-bottom: .1em solid white;
+   }
+
+   section:nth-of-type(2) p {
+    font-size: 1em;
+    font-weight: 200;
+    text-transform: initial;
+    max-width: 75ch;
+   }
+
+   section:nth-of-type(2) ul {
+    list-style: none;
+   }
+   section:nth-of-type(2) ul a {
+    color: var(--horizonte);
+    font-weight: 200;
+   }
+
+   @container ab-banner (min-width: 500px) {
+        section:nth-of-type(2) h2 {
+        width: 410px;
+   }
+    }
+
+   @container list-banner (min-width: 550px) {
+        article {
+            width: 50%;
+        }
+
+        .a-d a div {
+          max-width: 50vw;
+          padding: .5em .75em;
+        }
+    }
+
+    @container list-banner (min-width: 1000px) {
+        article {
+            width: 33.3%;
+        }
+
+        .a-d a div {
+          max-width: 33.3vw;
+          padding: .5em .95em;
+        }
+    }
+
+    @container list-banner (min-width: 2500px) {
+        article {
+            width: 25%;
+        }
+
+        .a-d a div {
+          max-width: 25vw;
+          padding: .5em 1.15em;
+        }
+    }
 
 </style>
