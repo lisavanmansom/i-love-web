@@ -1,10 +1,9 @@
 <script>
     import Footer from '$lib/c-footer.svelte';
     import TextAbout from '$lib/text-aboutme.svelte';
+    import Orb from '$lib/orb.svelte';
     import ViewTransition from '../navigation.svelte';
     import ShaderAbout from '$lib/shader-about.svelte';
-
-    let current = 1;
 </script>
 
 <div class="app">
@@ -15,14 +14,15 @@
     <header>
         <h1>Hi, I am Lisa van Mansom</h1>
         <p>Frontend developer</p>
-        <p>I am keen on funky websites, animations, eclastic designs, literature and art.</p>
-        <img width="100" height="100" loading="lazy" alt="" src="../images/about-1.png">
+        <Orb />
     </header>
 
     <section>
         <hgroup>
             <h2>Selected works</h2>
-            <p> I've worked on the integration of several websites, focusing solely on the front-end interface. At times, I worked from mockups provided by designers, while other times I handled the UX/UI myself. </p>
+            <p> In my selected works, you'll find projects that blend creativity with technical skill, reflecting my journey as a developer. 
+                Each piece represents a unique challenge, from solving complex coding problems to designing user-friendly interfaces. 
+                Through these works, I aim to showcase not only my technical expertise but also my commitment to creating impactful, meaningful digital experiences. </p>
         </hgroup>
 
         <div class="l-d">
@@ -165,12 +165,56 @@
     <section>
         <article>
             <h2>about me</h2>
-            <p>Madison Blackstone is a director of brand marketing, with experience managing global teams and multimillion-dollar campaigns. Her background in brand strategy, visual design, and account management informs her mindful but competitive approach. Madison is fueled by her passion for understanding the nuances of cross-cultural advertising. She considers herself a "forever student," eager to both build on her academic foundations in psychology and sociology, and stays in tune with the latest digital marketing strategies through continued coursework.</p>
+            <p>My name is Lisa van Mansom and I am studying Frontend design & development at the Hva. 
+                During my study I have learnt the best practices of HTML, CSS and JavaScript and how to use it in a creative way. 
+                This year I have started using tech stacks like SvelteKit and React. 
+                In my free time, to enhance more skills, I have decided to start learning WebGL, Gsap and other JS libraries. 
+                Additionally, I am well-versed in the latest innovations within the frontend sector, for example I have worked with container queries and view transitions. 
+                As a person I am ambitious, very eager to learn, structured and I work well together. Furthermore, I have an eye for detail, and I think it is important to work intelligently to deliver work at a high customer level. 
+            </p>
+
+            <p>Outside of coding, I am passionate about diving into classic and contemporary literature, as I believe every book offers a fresh perspective on the world. 
+                I love the energy and creativity of live music, and going to concerts is one of my favorite ways to unwind and get inspired. 
+                I also value spending quality time with friends, as those moments help me recharge and bring balance to my life.
+            </p>
         </article>
 
         <article>
-            <h2>experience</h2>
-            <p>Madison Blackstone is a director of brand marketing, with experience managing global teams and multimillion-dollar campaigns. Her background in brand strategy, visual design, and account management informs her mindful but competitive approach. Madison is fueled by her passion for understanding the nuances of cross-cultural advertising. She considers herself a "forever student," eager to both build on her academic foundations in psychology and sociology, and stays in tune with the latest digital marketing strategies through continued coursework.</p>
+            <h2>Work Experience</h2>
+            <p>Currently, I am active as a student assistant at the CMD course. 
+                My work within this position is helping students with coding their website, organizing feedback sessions and helping them identify their areas of improvement. 
+                By doing so, I have learnt to proactive share crucial knowledge to help others and various ways to navigate between diversity.
+                Previously, I have studied graphic design at rocva. While studying I have worked with multiple Adobe softwares. 
+                Part of my study was a yearlong internship which I spent at the e-commerce startup Positive Things. My work included web design, packaging and manual design, banner and product images. 
+                </p>
+
+            <h3>Student Assistant Frontend - Septembet 2024 / December 2024</h3>
+            <p>Hva communication multimedia design</p>
+            <ul>
+                <li>Helping with lessons, holding feedback sessions about their code and work ethic and answering questions.</li>
+                <li>Working with CMD-students and teachers. </li>
+            </ul>
+   
+            <h3>Tumi Mundo - March 2024 / June 2024</h3>
+            <p>Lessons page</p>
+            <ul>
+                <li>A language learning web application where children can learn a second language, multiple stories, lessons and playlist are part of the lessons overview page.</li>
+                <li>Working with Node.js / Express.js, Directus and GSAP.</li>
+            </ul>
+
+            <h3>Fresk. Digital - June 2024</h3>
+            <p>Data Dashboard</p>
+            <ul>
+                <li>Data-driven digital dashboard with a login page and an overview page of the data.</li>
+                <li>Working with Chart.js, Google analytics and Node.js / Express.js.</li>
+            </ul>
+
+            <h3>Graphic Design internship - February 2021 / January 2022 </h3>
+            <p>Positive Things</p>
+            <ul>
+                <li>At Positive Things I was used to working on different products including packaging and manual design, creating multiple E-books, product images and webdesign</li>
+                <li>Working with Adobe Illustrator, Photoshop, Indesign and Dimension.</li>
+            </ul>
         </article>
 
         <article>
@@ -193,7 +237,7 @@
 main {  color: var(--horizonte);
         display: flex; flex-direction: column;
         align-items: center; justify-content: center;
-        overflow-x: hidden;
+        overflow: hidden;
         width: 100%; min-height: 100dvh;
         text-transform: uppercase;
     }
@@ -206,15 +250,26 @@ main {  color: var(--horizonte);
     a  { text-decoration: none; cursor: pointer; color: var(--beijo);}
 
     header {
+        align-items: center;
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        height: 20em;
+        text-align: center;
+        overflow: hidden;
+        position: relative;
+        width: 100%;
+    }
+
+    header h1, header p {
+        z-index: 10;
     }
 
    section:nth-of-type(1) {
     position: relative;
     width: 100%;
-    /* padding: .5em .25em; */
-    /* box-shadow: 0px 0px 140px rgb(17, 255, 0); */
+    margin: .5em .25em;
+    box-shadow: 0px 0px 140px rgb(17, 255, 0);
    }
 
    section:nth-of-type(1) hgroup {
@@ -229,7 +284,7 @@ main {  color: var(--horizonte);
 
    section:nth-of-type(1) hgroup p {
     padding: .5em 1em;
-    max-width: 75ch;
+    max-width: 100ch;
    }
 
    .l-d {
@@ -327,6 +382,7 @@ main {  color: var(--horizonte);
     margin: 5em 0 5em 0;
     container: ab-banner / inline-size;
    }
+
    section:nth-of-type(2) article {
     display: flex;
     flex-direction: column;
@@ -351,6 +407,18 @@ main {  color: var(--horizonte);
    section:nth-of-type(2) ul a {
     color: var(--horizonte);
     font-weight: 200;
+   }
+
+   section:nth-of-type(2) ul li {
+    font-weight: 100;
+    text-transform: initial;
+    margin-bottom: 1em;
+   }
+
+   section:nth-of-type(2) article:nth-of-type(3) li {
+    font-weight: 100;
+    text-transform: initial;
+    margin-bottom: 0em;
    }
 
    @container ab-banner (min-width: 500px) {
@@ -389,6 +457,24 @@ main {  color: var(--horizonte);
         .a-d a div {
           max-width: 25vw;
           padding: .5em 1.15em;
+        }
+    }
+
+    @media (min-width: 875px) {
+        section:nth-of-type(1) hgroup {
+            padding: 2em;
+            display: flex;
+            flex-direction: column;
+            align-items:center;
+            justify-content: center;
+        }
+
+        section:nth-of-type(1) hgroup h2 {
+            padding-bottom: 1em
+        }
+
+        section:nth-of-type(2) {
+            padding: 2em 12em;
         }
     }
 
