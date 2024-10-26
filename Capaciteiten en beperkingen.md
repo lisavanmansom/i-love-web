@@ -1,0 +1,1 @@
+# Capaciteiten en beperkingen
