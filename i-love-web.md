@@ -53,6 +53,18 @@ Hier noteer ik internationale ontwikkelingen in het vakgebied om op de hoogte te
 ## Trends
 ### Webtrends 2024
 
+**Web design in 2024:**
+* Drag Interaction
+* Cinemagraphs
+* Text-Only
+* Ultra-minimalism
+* Y2K Inspired Design
+* Scrapbook Aesthetic
+* Minimal Vintage
+* Natural and Organic Textures
+* User Experience
+* Chatbots
+
 ### Webtrends 2025
 
 **Web design trends to watch in 2025:**
@@ -204,19 +216,11 @@ Generative AI is reshaping the entire concept of visual design, challenging trad
 * :has
 * high-definition colors
 * relative colors
-* scroll behavior
 * text-wrap: balance
 * View Transitions API
 * auto field-sizing
-* dialog
-* :focus-visible
 * hidden=until-found
-* <hr> in select
-* min(), max(), clamp()
-* responsive videos
-* scroll snap
 * Live And Late Validation
-
 
 ### Scroll driven animations
 
@@ -330,25 +334,111 @@ There are a number of use cases where a smooth visual transition can make the us
 
 View transitions can be triggered not only on a single document but also between two different documents. Both rely on the same principle: The browser takes snapshots of the old and new states, the DOM gets updated while rendering is suppressed, and the transitions are powered by CSS Animations.
 
-#### Uitwerking
-
 https://developer.chrome.com/docs/web-platform/view-transitions?hl=nl
+
+#### Uitwerking
+> https://github.com/fdnd-agency/drop-and-heal/issues/109
+
+```
+<script>
+import { SkeletonVT } from '$lib'
+import { onNavigate } from '$app/navigation';
+
+function delayNavigation() {
+    return new Promise((resolve) => setTimeout(resolve, 100));
+}
+
+onNavigate(async (navigation) => {
+    if (!document.startViewTransition) {
+        await delayNavigation();
+        return;
+    }
+
+    return new Promise((resolve) => {
+        document.startViewTransition(async () => {
+        await delayNavigation();
+        resolve();
+        await navigation.complete;
+        });
+    });
+});
+</script>
+
+<div class="w-d-t">
+    <h1>Die young, be Glamourous</h1>
+    <h2>share some holiday spirits with dying</h2>
+    <SkeletonVT name="skeleton" pageStyle="skeleton"/>
+    <SkeletonVT name="heavenlyBG" pageStyle="heavenlyBG"/>
+
+    <SkeletonVT name="treesBG" pageStyle="error-trees"/>
+    <SkeletonVT name="treesBG-invert" pageStyle="error-trees-invert"/>
+</div>
+
+<slot />
+
+<style>
+     .w-d-t {
+        filter: hue-rotate(330deg) saturate(2);
+        box-shadow: inset 0px 100px 300px rgb(248, 19, 19);
+        position: fixed;
+        pointer-events: none;
+        width: 100vw;
+
+        transform: translateX(-101%);
+        view-transition-name: v-s;
+    }
+
+    h1 { 
+        font: 100 3.5em LastChristmas;
+        filter: blur(1px);
+        text-shadow: var(--b) 2px 2px;
+    }
+
+    h2 {
+        font: 100 1.1em Apple Color Emoji;
+        text-shadow: var(--b) 2px 2px;
+    }
+
+    @media (prefers-reduced-motion: no-preference) {
+        :root::view-transition-group(v-s) {
+            animation: seen 3s ease-in-out;
+        }
+    }
+
+    @keyframes seen {
+	    0% {
+            transform: none;
+            opacity: 0;
+	    }
+        20%, 90% {
+            opacity: 1;
+	    }
+	    99% {
+            opacity: 0;  
+            transform: none;
+	    }
+        100% {
+            transform: translateX(-101%)
+        }
+    }
+</style>
+```
 
 ### Anchor-positioning
 
-Whether you use it for footnotes, tooltips, connector lines, visual cross-referencing, or dynamic labels in charts, the CSS Anchor Positioning API enables us to natively position elements relative to other elements, known as anchors. In her introduction to the CSS Anchor Positioning API, Una Kravets summarized in detail how anchor positioning works. She takes a closer look at the mechanism behind anchor positioning, how to tether to one and multiple anchors, and how to size and position an anchor-positioned element based on the size of its anchor. Browser support is still limited, so you might want to use the API with some precautions. Una’s guide includes what to watch out for.
+Whether you use it for footnotes, tooltips, connector lines, visual cross-referencing, or dynamic labels in charts, the CSS Anchor Positioning API enables us to natively position elements relative to other elements, known as anchors. Browser support is still limited, so you might want to use the API with some precautions. 
 
 ### Exclusive Accordions
 
 The ‘exclusive accordion’ is a variation of the accordion component. It only allows one disclosure widget to be open at the same time, so when a user opens a new one, the one that is already open will be closed automatically to save space. Thanks to CSS, we can now create the effect without a single line of JavaScript. 
 
-To build an exclusive accordion, we need to add a name attribute to the <details> elements. When this attribute is used, all <details> elements that have the same name value form a semantic group and behave as an exclusive accordion. Bramus Van Damme summarized in detail how it works.
+To build an exclusive accordion, we need to add a name attribute to the `<details>` elements. When this attribute is used, all `<details>` elements that have the same name value form a semantic group and behave as an exclusive accordion. Bramus Van Damme summarized in detail how it works.
 
 https://developer.chrome.com/docs/css-ui/exclusive-accordion?hl=nl
 
 ### :has
 
-Historically, CSS selectors have worked in a top-down fashion, allowing us to style a child based on its parent. The new CSS pseudo-class :has works the other way round: We can now style a parent based on its children. But that’s not all yet. Josh W. Comeau wrote a fantastic introduction to :has in which he explores real-world use cases that show what the pseudo-class is capable of.
+Historically, CSS selectors have worked in a top-down fashion, allowing us to style a child based on its parent. The new CSS pseudo-class :has works the other way round: We can now style a parent based on its children. But that’s not all yet. Josh W. Comeau wrote a fantastic introduction to `:has` in which he explores real-world use cases that show what the pseudo-class is capable of.
 
 https://www.joshwcomeau.com/css/has/
 
@@ -370,22 +460,91 @@ https://ishadeed.com/article/css-text-wrap-balance/
 https://developer.chrome.com/blog/css-text-wrap-pretty?hl=nl
 
 ### auto field-sizing
-### dialog
-### :focus-visible
+
+Finding just the right size for an input field usually involves a lot of guesswork — or JavaScript — to count characters and increase the field’s height or width as a user enters text. CSS field-sizing is here to change that. With field-sizing, we can auto-grow inputs and text areas, but also auto-shrink short select menus, so the form always fits content size perfectly. All we need to make it happen is one line of CSS.
+
+https://developer.chrome.com/docs/css-ui/css-field-sizing?hl=nl
+
 ### hidden=until-found
-### <hr> in select
-### min(), max(), clamp()
-### responsive videos
-### scroll snap
+
+Accordions are a popular UI pattern, but they come with a caveat: The content inside the collapsed sections is impossible to search with find-in-page search. By using the hidden=until-found attribute and the beforematch event, we can solve the problem and even make the content accessible to search engines.
+
+As Joey Arhar explains in his guide to making collapsed content searchable, you can replace the styles that hide the section with the `hidden=until-found` attribute. If your page also has another state that needs to be kept in sync with whether or not your section is revealed, he recommends adding a beforematch event listener. It will be fired on the `hidden=until-found` element right before the element is revealed by the browser.
+
+https://developer.chrome.com/docs/css-ui/hidden-until-found?hl=nl
+
 ### Live And Late Validation
+
+When we use `:valid` and `:invalid` to apply styling based on a user’s input, there’s a downside: a form control that is required and empty will match :invalid even if a user hasn’t started interacting with it yet. To prevent this from happening, we usually had to write stateful code that keeps track of input a user has changed. But not anymore.
+
+With `:user-valid` and `:user-invalid`, we now have a native CSS solution that handles all of this automatically. Contrary to :valid and :invalid, the `:user-valid` and `:user-invalid` pseudo-classes give users feedback about mistakes only after they have changed the input. :user-valid and :user-invalid work with input, select, and textarea controls.
+
+https://web.dev/articles/user-valid-and-user-invalid-pseudo-classes
 
 ## Experimenten
 
+In Sprint 17 heb ik 3 verschillende creative spikes uitgevoerd. De creative spikes zijn gemaakt met Sveltekit. Met de creative spike zijn er nieuwe technieken uitgetest zoals view transitions en scroll driven animations. Om volledig creatief los te kunnen gaan is er gekozen om niet de huisstijl te volgen van de opdrachtgever maar met thema's te werken bij elke creative spike. Door dit te doen is er meer conceptueel gewerkt en zijn er verschillende creative mogelijkheden uitgeprobeerd.
+
+### Scroll driven animation
+
+<img width="100%" alt="Scherm­afbeelding 2024-12-22 om 13 24 55" src="https://github.com/user-attachments/assets/778ac655-5152-4e0b-8f24-0870d6d34be3" />
+
+### Christmas edition / View transition
+
+<img width="100%" alt="Scherm­afbeelding 2024-12-22 om 13 18 28" src="https://github.com/user-attachments/assets/fd63a32b-f2ad-4ff2-b54f-1f8327d5823a" />
+
 ## Frontendfocus
+### 12 Modern CSS One-Line Upgrades
+> https://moderncss.dev/12-modern-css-one-line-upgrades/
+
+* aspect-ratio
+* object-fit
+* margin-inline
+* text-underline-offset
+* outline-offset
+* scroll-margin-top/bottom
+* color-scheme
+* accent-color
+* width: fit-content
+* overscroll-behavior
+* text-wrap
+* scrollbar-gutter
 
 ## CSSWeekly
+### Issue #599: Overflow Clip, View Transitions
+#### Overflow Clip
+> https://ishadeed.com/article/overflow-clip/?utm_source=CSS-Weekly&utm_medium=newsletter&utm_campaign=issue-599-november-20-2024&_bhlid=8f4507199e0ac561b847699df59ff2d11d7c67f5
 
 ## SmashingMagazine
+
+* https://www.smashingmagazine.com/2024/12/new-front-end-features-for-designers-in-2025/
+
+### Mail #486: Advanced Design Systems
+#### “THE DESIGN SYSTEM ISN'T WORKING FOR ME!”
+
+WWhen design system users run into issues designing and developing with the system, they often have a hard time distinguishing between a bug, a missing feature, an intentional design deviation, a new pattern they need to create, or something else. Design system teams need to be proactive and obnoxiously clear about how to connect with them. No one wants to brace for a thorough scolding by the Pattern Police; people want to be heard, understood, and helped.
+
+##### DIFFERENCE BETWEEN A BUG, VISUAL DISCREPANCY, GAP, AND PATTERN
+
+* Bugs are defects in existing design system components
+* Visual discrepancies are designs that don’t match the available coded UI components. Visual discrepancies can be a design system visual bug. 
+* A design system feature is a new component or variant that isn’t currently in the design system but maybe ought to be.
+* A pattern — or recipe — is a composition of design system components that is owned and assembled by the product team
+
+> https://bradfrost.com/blog/post/design-system-governance-bugs-design-discrepancies-features-and-recipes/
+
+#### Building A Multi-Platform Design System
+
+Design Language includes guidelines on usage of colour, typography, layout, iconography, photography, illustrations, and voice and tone.
+
+How, then, do you embed a design language into a large product with such a rich history? By creating a shared foundational layer across design and code for styles and assets, with:
+* **Design tokens:** Design tokens are used for color, typography, shadow, border-radius, spacing and grid. These are building pieces to help everything we design feel part of the same family. Functional tokens communicate a specific semantic context. Colors have semantic groups like action, constructive, destructive, etc. But they also belong to specific functional groups like foreground, background, border, etc.
+* **The Design API:** The Design API stores foundational data, versions all changes, and converts platform-agnostic values into platform-specific tokens for iOS, Android, Vue, React and Figma. To automatically pull data from the Design API to Figma, we built an internal plugin. It safely pulls all style data (including metadata with description) from our Design API.
+
+> https://booking.design/how-we-built-our-multi-platform-design-system-at-booking-com-d7b895399d40
+
+#### Overige bronnen uit mail
+https://playbook.ebay.com/design-system
 
 ## Awwwards
 
