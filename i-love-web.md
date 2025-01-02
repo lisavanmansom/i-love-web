@@ -1,4 +1,4 @@
-# I love web notes
+# I-love-web
 
 Hier noteer ik internationale ontwikkelingen in het vakgebied om op de hoogte te blijven van trends en best practices, denk aan frameworks of designprincipes. Onder begeleiding worden keuzes gemaakt over technieken en tools om ontwikkeling van vaardigheden te verbeteren.
 
@@ -10,6 +10,7 @@ Hier noteer ik internationale ontwikkelingen in het vakgebied om op de hoogte te
 * [CSS Weekly](#CSSWeekly)
 * [SmashingMagazine](#SmashingMagazine)
 * [Awwwards](#Awwwards)
+* [Pinterest](#pinterest)
 * [Behance](#behance)
 * [Overige inspiratie](#overig)
 
@@ -64,6 +65,10 @@ Hier noteer ik internationale ontwikkelingen in het vakgebied om op de hoogte te
 * Natural and Organic Textures
 * User Experience
 * Chatbots
+
+ #### Visuals 
+ 
+<img width="100%" alt="Scherm­afbeelding 2025-01-02 om 23 26 17" src="https://github.com/user-attachments/assets/f967b746-9fe9-40b9-bb08-e6e2c6e82a30" />
 
 ### Webtrends 2025
 
@@ -547,10 +552,89 @@ How, then, do you embed a design language into a large product with such a rich 
 https://playbook.ebay.com/design-system
 
 ## Awwwards
+### Collection of sites found on Awwwards / inspiration
+
+#### UTSUBO V2
+
+Utsubo is a Technology-First Creative Studio specializing in real-time 3D experiences, interactive installations, and WebGPU.
+
+##### Highlights of the website
+- Cursor interaction
+- Storytelling
+- Scroll animations
+- 3D
+- Transitions
+
+<img width="100%" alt="Scherm­afbeelding 2025-01-02 om 21 58 43" src="https://github.com/user-attachments/assets/60de6da7-51bb-43f7-9bda-838ce5a3c6ff" />
+
+> https://www.utsubo.com
+
+#### GNOME'S CHRISTMAS PARTY
+
+LCDC Seoul invites you to the Christmas feast—come and see if you can spot the mischievous gnomes running around during the festive celebration.
+
+##### Highlights of the website
+- Games & entertainment
+- Transitions
+- 3D
+- Interaction
+- Animation
+
+<img width="100%" alt="Scherm­afbeelding 2025-01-02 om 22 10 43" src="https://github.com/user-attachments/assets/f3323207-29b9-4e8f-b616-4ef7f26e78a1" />
+
+> https://gnomes-xmas.lcdc-seoul.com
+
+#### Unium
+
+Unium is a company that transforms the world you envision into value through design.
+
+##### Highlights of the website
+- Interactive design
+- Scroll animations
+- Transitions
+- Animations
+
+<img width="100%" alt="Scherm­afbeelding 2025-01-02 om 22 16 43" src="https://github.com/user-attachments/assets/b4381a26-0fe1-41e3-8a14-736e7b0908bf" />
+
+> https://unium.jp
+
+#### POLECAT AGENCY
+
+Website of Polecat Agency that builds diverse software, spanning wearables and mobile applications to complex industrial and corporate systems — with ease and fun
+
+##### Highlights of the website
+- Web design / illustrations
+- Interactive design
+- Experimental
+- Colorful
+- Transitions
+- Animations
+
+<img width="100%" alt="Scherm­afbeelding 2025-01-02 om 22 21 05" src="https://github.com/user-attachments/assets/8814017c-9f6f-4561-83c1-5647a6931c37" />
+
+> https://www.polecat.agency
+
+## Pinterest
+
+Ik gebruik Pinterest vaak voor inspiratie voor verschillende dingen, je kan trends vinden, maar ook niché stijlen die van toepassing kunnen zijn op het project waarmee je bezig bent. Op Pinterest hou ik 2 borden bij, 1 voor serieuzere opdrachten en de ander voor de digital garden / i-love-website
+
+<img width="100%" alt="Scherm­afbeelding 2025-01-02 om 23 13 00" src="https://github.com/user-attachments/assets/87d133b6-63f7-4873-b780-a538ff647de4" />
 
 ## Behance
 
+Ik gebruik behance als inspiratie voor als ik iets maakt wat niet serieus hoeft te zijn, zoals met een creative spike of squadpage / profile card. Op behance kan je eenvoudig grafische trends vinden en die implementeren in je eigen design. Behance is meer een grafisch platform dan voor web design, maar je kan er ook dingen over typografie en kleur vinden vrij eenvoudig is om te implementeren.
+
+> overzicht beeldmateriaal wat is gebruikt als inspiratie.
+
+<img width="100%" alt="Scherm­afbeelding 2025-01-02 om 22 52 28" src="https://github.com/user-attachments/assets/52644e6e-78f1-4a8f-9f60-006537af099f" />
+
 ## Overig
+### Bloomberg businessweek
+
+Ik haal meestal inspiratie van de covers van de Bloomberg businessweek, die ik online zie / ik ben geen abonnee. Anyway, hier geldt ook dat dit vooral van toepassing is als ik creative vrijheid heb, denk aan creative spike, i-love-website, squadpage / profile card. Ik heb hieruit meerdere keren inspiratie gehaald voor layouts maar ook voor interactive design.
+
+<img width="100%" alt="Scherm­afbeelding 2025-01-02 om 23 06 51" src="https://github.com/user-attachments/assets/cba1e922-345a-4f21-a4ab-54d3405540c6" />
+
 
 # Bronnenlijst
 * **Trends:** https://webflow.com/blog/web-design-trends-2025 / https://youtu.be/gR-yNIGICzM?si=i2wKHDES8j_vLY2E / https://www.wix.com/blog/web-design-trends / https://www.tiny.cloud/blog/a-guide-to-grids-blog-design/ / https://medium.com/@nachi.singh2/introduction-to-custom-cursor-interactions-in-web-design-7175273b1591
