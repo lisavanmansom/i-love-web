@@ -57,24 +57,22 @@ Hier noteer ik internationale ontwikkelingen in het vakgebied om op de hoogte te
 
 #### Unusual Layout
 
-<img width="100%" alt="Scherm­afbeelding 2025-01-02 om 15 04 07" src="https://github.com/user-attachments/assets/dca6fd0f-7ad6-4377-aba4-da51d300b1c1" />
-
 * https://taqueriarico.com
 * https://apossible.com
 * https://www.zolviz.xyz
 * https://dvein.com
 
-#### Custom illustrations
+<img width="100%" alt="Scherm­afbeelding 2025-01-02 om 15 04 07" src="https://github.com/user-attachments/assets/dca6fd0f-7ad6-4377-aba4-da51d300b1c1" />
 
-<img width="100%" alt="Scherm­afbeelding 2025-01-02 om 15 04 29" src="https://github.com/user-attachments/assets/87d45009-3566-487a-a7f4-234d95cdf54a" />
+#### Custom illustrations
 
 * https://mew.xyz
 * https://www.flyingpapers.com
 * https://timokuilder.com
 
-#### Cursor-Centric Interactivity
+<img width="100%" alt="Scherm­afbeelding 2025-01-02 om 15 04 29" src="https://github.com/user-attachments/assets/87d45009-3566-487a-a7f4-234d95cdf54a" />
 
-<img width="100%" alt="Scherm­afbeelding 2025-01-02 om 15 04 44" src="https://github.com/user-attachments/assets/65663c1e-50ae-476d-acd6-0ce706779dfb" />
+#### Cursor-Centric Interactivity
 
 * https://www.airborne.studio
 * https://flowmingo-mini-6.webflow.io
@@ -83,46 +81,48 @@ Hier noteer ik internationale ontwikkelingen in het vakgebied om op de hoogte te
 * https://neodlx.io
 * https://www.renflowdesigns.com/404
 
-#### Grid and Modular design
+<img width="100%" alt="Scherm­afbeelding 2025-01-02 om 15 04 44" src="https://github.com/user-attachments/assets/65663c1e-50ae-476d-acd6-0ce706779dfb" />
 
-<img width="100%" alt="Scherm­afbeelding 2025-01-02 om 15 04 36" src="https://github.com/user-attachments/assets/c4684e57-6882-4611-a0f2-80872587fe6b" />
+#### Grid and Modular design
 
 * https://www.pinnacledesignlab.com
 * https://wodniack.dev
 * https://www.pilot-republic.space/blog
 
-#### Dynamic 3D experiences
+<img width="100%" alt="Scherm­afbeelding 2025-01-02 om 15 04 36" src="https://github.com/user-attachments/assets/c4684e57-6882-4611-a0f2-80872587fe6b" />
 
-<img width="100%" alt="Scherm­afbeelding 2025-01-02 om 15 05 01" src="https://github.com/user-attachments/assets/16de1edb-6af8-4629-9345-a5586b9a726b" />
+#### Dynamic 3D experiences
 
 * https://www.odyssey.shaga.xyz
 * https://www.apple.com/iphone-16-pro/
 * https://petertarka.com/molton-brown
 * https://www.otherlife.xyz
 
-#### Playful interactive websites
+<img width="100%" alt="Scherm­afbeelding 2025-01-02 om 15 05 01" src="https://github.com/user-attachments/assets/16de1edb-6af8-4629-9345-a5586b9a726b" />
 
-<img width="100%" alt="Scherm­afbeelding 2025-01-02 om 15 04 53" src="https://github.com/user-attachments/assets/ba14426b-54d6-4022-82c5-8a24d0b5fc57" />
+#### Playful interactive websites
 
 * https://conceptcapers.com/?ref=onepagelove
 * https://sannisahil.com/404
 * https://www.lbsb.nu
 
-#### Scroll-To-Engage stories 
+<img width="100%" alt="Scherm­afbeelding 2025-01-02 om 15 04 53" src="https://github.com/user-attachments/assets/ba14426b-54d6-4022-82c5-8a24d0b5fc57" />
 
-<img width="100%" alt="Scherm­afbeelding 2025-01-02 om 15 04 15" src="https://github.com/user-attachments/assets/21ab8f96-4068-4597-a8e5-99cbf0369dc3" />
+#### Scroll-To-Engage stories 
 
 * https://concept.peachworlds.com
 * https://www.empathyexperiment.com
 * https://promo.emotion-agency.com
 
-#### Radient Glow design
+<img width="100%" alt="Scherm­afbeelding 2025-01-02 om 15 04 15" src="https://github.com/user-attachments/assets/21ab8f96-4068-4597-a8e5-99cbf0369dc3" />
 
-<img width="100%" alt="Scherm­afbeelding 2025-01-02 om 15 04 23" src="https://github.com/user-attachments/assets/802356bc-2035-458f-8838-23823ee00964" />
+#### Radient Glow design
 
 * https://fancy.design/works/argus-vpn.html
 * https://dribbble.com/shots/21339985-Reflect-app-Re-Design
 * https://pinatap.beaucoup.studio
+
+<img width="100%" alt="Scherm­afbeelding 2025-01-02 om 15 04 23" src="https://github.com/user-attachments/assets/802356bc-2035-458f-8838-23823ee00964" />
 
 ## Ontwikkelingen
 ### Scroll driven animations
