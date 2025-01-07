@@ -1,4 +1,4 @@
-# Student-assistent learning journal
+# Student-assistent learning journal / periode 1
 ### Diversiteit binnen teams / voortgangsgesprekken 1
 
 **Feedback / voortgang vastgelegd per leerling:**
@@ -86,3 +86,75 @@ Uit deze ronde kon ik een conclusie trekken dat veel studenten er anders instaan
 Bij de 3e voortgangsgesprekken lag vooral de focus bij de css. Er waren veel vragen over grid, flex en css selectoren. Wat opviel was dat in deze ronde best veel afwezige waren. Veel studenten verliezen ook de focus met waarmee ze bezig zijn, bijvoorbeeld Splinter wordt beoordeelt op responsive, alleen maakt hij een creative hover effects (dat is handig als je wordt beoordeeld op surface...), ook heeft hij veel chaos in zijn files. Chaos in bestanden is een terugkomend onderwerp bij meerdere studenten, als voorbeeld Diya, kopieert en verwijdert veel codes uit verschillende plekken waardoor er totaal geen structuur is. Ook heb je studenten die gebruik maken van 'vieze code', zoals Uri, hij heeft vrijwel zijn gehele layout gecreërt d.m.v margins en paddings wat niet helemaal de bedoeling is. Het lijkt alsof hij ver is maar doordat hij veel 'vieze code' heeft valt dat erg tegen.
 
 Uit de 3e voortgangsgesprekken werd vooral duidelijk dat veel studenten last-minute veel gaan coderen. Ook werd er duidelijk dat veel feedback wat is gegeven tijdens eerdere voortgangsgesprekken of tijdens lessen niet wordt gezien als belangrijk. Aangezien veel vragen opnieuw worden gesteld door dezelfde mensen. 
+
+# Student-assistent learning journal / periode 2
+## Diversiteit binnen teams / voortgangsgesprekken 1
+### Feedback / voortgang vastgelegd per leerling:
+- Berend: Gaat z'n gangetje, 1e pagina HTML af;
+- Fatima: Loopt achter, heeft weinig;
+- Marieke: Gaat z'n gangetje, 1e pagina HTML af;
+- Hope: breakdown schets moet nog gemaakt worden, toegankelijkheidstest uitbreiden en focussen op html strucuur eerst dan css;
+- Kioko: toegankelijkheidstest mist nog, breakdown schets is aanwezig, check of de website voldoende variatie heeft, nog geen html;
+- Ivy: Gaat z'n gangetje, 1e pagina HTML af;
+- Laurens: Loopt achter, heeft weinig, zie ik ook amper bij de lessen;
+- Mea: toegankelijkheidstest mist nog, breakdown schets nog niet overzichtelijk en nog weinig html;
+- Mohamed: Loopt achter, moet gewoon aan de slag, minder nadenken;
+- Victor: repository updaten, toegankelijkheidstest mist nog en html structuur mag iets netter qua sections en lists;
+- Jillian: HTML beide pagina's af, ziet er eigenlijk wel prima uit;
+- Ninti: Loopt achter, heeft weinig;
+- Loek: breakdown schets mist, html nog te weinig en togenkelijkheidstest mag uitgebreider;
+- Pien: html is overzichtelijk, toegankelijkheidstest is duidelijk, breakdown schets goed en uitgebreid, let op headings volgorde en sections;
+- Luka: Goed bezig;
+- Rens: Is wat werk, veel foutjes in HTML;
+- Reuben: Heeft nier super veel;
+- Manuel: html is overzichtelijk, breakdown schets mist nog, toegankelijkheidstest uitbreiden, geen background videos wel als html elementen.;
+- Nerusha: loop op schema, toegankelijkheidstest uitbreiden, breakdownschets nog overzichtelijker maken, html structuur is duidelijk en netjes.;
+- Vincent: toegankelijkheidstest mag uitgebreider, breakdown schets mist nog, html ziet er goed uit, opletten op de strucuur en volgorde van headings;
+
+### Conclusie
+
+## Diversiteit binnen teams / voortgangsgesprekken 2
+### Feedback / voortgang vastgelegd per leerling:
+- Anko: minder gebruik maken overbodige div's en classes, readme niet up to date;
+- Berend: html structuur is overzichtelijk, voeg headings bij elke section;
+- Marieke: html & css zijn overzichtelijk en semantisch correct. let op de volgorde in de section;
+- Ivy: html is netjes, nog weinig css;
+- Mohamed: Een begin gemaakt aan html, verslag is nog leeg;
+- Anouk: Loopt nog achter, vind het moeilijk, verslag is niet bijgehouden;
+- Jillian: Ziet er goed uit. ul en li in de footer goedzetten, voeg dingen samen in sections;
+- Ninti: loopt weer op schema, breakdown schets mist, html structuur kan beter door section toe te voegen;
+- Roan: html en css zijn netjes. readme nog niet compleet;
+- Luka: structuur is netjes en heeft de eerste pagina bijna af, goed bezig;
+- Rens: html is netjes, maakt goed gebruik van grid, volgorde in section kan netter, dus beginnen met heading, readme nog leeg;
+- Reuben: html is overzichtelijk, svg naar img, geen meerder h1;
+
+### Conclusie
+
+## Diversiteit binnen teams / voortgangsgesprekken 3
+### Feedback / voortgang vastgelegd per leerling:
+- Kioko: Ze gaat voor de herkansing, nog weinig code, maar wel goeie html structuur;
+- Martina: zij is goed bezig. veel media queries;
+- Mea: loop nog achter, readme is bijna leeg, structuur is niet helder;
+- Mees: readme is leeg, er is wel wat code, maar veel overbodige classes;
+- Victor: html strcutuur is netjes, readme is nog leeg;
+- Loek: readme nog leeg, html structuur kan beter, moet nog beginnen aan tweede pagina;
+- Pien: readme goed bijgehouden, html structuur is netjes, menu moet nog goed gezet worden;
+- Manuel: loop op schema, laatste stapjes nog;
+- Vincent: nog geen css, veel html al;
+
+### Conclusie
+
+## Algemene ervaring
+### Gegeven feedback Sammy
+
+"Je ging energiek en sociaal te werk bij het helpen van studenten. Hierdoor creëerde je een omgeving waarin studenten zich comfortabel voelden om vragen te stellen. Vaak stellen studenten niet direct vragen, maar door jouw houding durfden ze dit gemakkelijker te doen. Het begeleiden en helpen van studenten ging ook goed, de studenten konden vaak verder na jouw hulp. 
+
+Je houding helpt de studenten om vragen te stellen, je zou dit effectiever kunnen benaderen door volgende keer meer de studenten zelf te sturen naar de inhoud van een vraag. Er is weleens een geval van een student die het niet begrijpt, maar dat hij ook geen vraag kan formulieren bij zijn vastlopend punt. Door de vragen “Wat heb je geprobeerd?" of "Waar loop je precies vast?" te stellen helpt dat de studenten om met een proactievere houding een gerichtere vraag te stellen.
+
+Tot slot toonde je veel initiatief, zowel bij het helpen van studenten als bij het bijhouden van de Excel-sheets. Je communicatie was ook duidelijk.
+
+Je proactieve en energieke werkhouding is een sterke kwaliteit, blijf deze inzetten en probeer het te combineren met het vraaggericht werken, zodat studenten niet alleen sneller, maar ook efficiënter geholpen worden."
+
+### Ontvangen feedback Sammy
+
+### Conclusie
