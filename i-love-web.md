@@ -9,6 +9,7 @@ Hier noteer ik internationale ontwikkelingen in het vakgebied om op de hoogte te
 * [Frontend focus](#Frontendfocus)
 * [CSS Weekly](#CSSWeekly)
 * [SmashingMagazine](#SmashingMagazine)
+* [Medium](#Medium)
 * [Awwwards](#Awwwards)
 * [Pinterest](#pinterest)
 * [Behance](#behance)
@@ -21,6 +22,7 @@ Hier noteer ik internationale ontwikkelingen in het vakgebied om op de hoogte te
 * SmashingMagazine / https://www.smashingmagazine.com
 * Frontend focus / https://frontendfoc.us
 * CSSWeekly / https://css-weekly.com
+* Medium / https://medium.com
 
 ### Instagram
 
@@ -550,6 +552,91 @@ How, then, do you embed a design language into a large product with such a rich 
 
 #### Overige bronnen uit mail
 https://playbook.ebay.com/design-system
+
+## Medium
+### Mail #7/01/25: Medium daily digest
+#### Bad Bad UX: 20 Common Mistakes in User Experience
+
+**Examples of How You Can Ruin User Experience:**
+- Autoplay of audio/video;
+- Unstructured web forms;
+- Long dropdowns / Сhecklists with a large number of options;
+- Low discoverability;
+- Bad color scheme;
+- CAPTCHA overuse;
+- Lack of intuitiveness (users love patterns).
+
+> https://medium.com/@Flowmapp/bad-bad-ux-20-common-mistakes-in-user-experience-d30301ba686b
+
+#### What’s New in Next.js 15 / Key Features, Updates, and Improvements
+
+##### New Features in Stable State
+###### Smooth upgrades with CLI
+
+`@next/codemod` is a CLI tool that helps to automate our upgrading and breaking changes with every major Next.js release. This tool helps you upgrade your codebase to the latest stable or prerelease versions. The CLI will update your dependencies, show available codemods, and guide you through applying them.
+
+```
+npx @next/codemod@canary <transform> <path>
+```
+
+> https://nextjs.org/docs/app/building-your-application/upgrading/codemods
+
+###### React 19 Support and React Compiler (Experimental)
+
+React Compiler is an experimental compiler worked by Meta’s React team. This compiler is mainly focused on understanding the javascript semantics and rules of Reactjs that help in code optimization and reduce the amount of manual memorization code such as useMemo and useCallback hooks. For more on React Compiler check this [doc.](https://react.dev/learn/react-compiler)
+
+As part of the version 15 release, Next.js App router is enabled with the React 19 version but it is not production-ready because React 19 is still in the RC phase. Once React 19 is ready we can able to enable it.
+
+###### Static Route Indicator
+
+In Next 15, they added a new flag/badge at the end of the page saying “Static Route” to indicate the difference between the Static and dynamic route. It is enabled by default, to turn off by adding a flag in the nextConfig file as below.
+
+```
+import type { NextConfig } from 'next'
+ 
+const nextConfig: NextConfig = {
+  devIndicators: {
+    appIsrStatus: false,
+  },
+}
+ 
+export default nextConfig
+```
+
+> https://nextjs.org/docs/app/api-reference/config/next-config-js/devIndicators#appisrstatus-static-indicator
+
+###### Form Component
+
+A new Form component has been introduced in this release, which helps developers to use the inbuilt future instead of depending the third-party libraries. This Form component extends the HTML `<form>` element that comes with prefetching, and client-side navigation.
+
+> https://nextjs.org/docs/app/building-your-application/routing/linking-and-navigating#2-prefetching
+> https://nextjs.org/docs/app/building-your-application/routing/linking-and-navigating#5-soft-navigation
+
+###### Optimizing bundling of external packages
+
+There is a new feature that helps to remove the unnecessary external packages to be skipped in the build by adding additional configurations in the nextConfig file as below.
+
+```
+const nextConfig = {
+  // Automatically bundle external packages in the Pages Router:
+  bundlePagesRouterDependencies: true,
+  // Opt specific packages out of bundling for both App and Pages Router:
+  serverExternalPackages: ['package-name'],
+};
+ 
+export default nextConfig;
+```
+
+> https://nextjs.org/docs/app/building-your-application/optimizing/package-bundling
+
+##### Changes that break your existing functionality
+###### Async Request APIs
+
+In server-side rendering, the server waits for the request before rendering the pages which is unnecessary for all the use cases. In this release, they made some changes to this. If there is any dependent information like `headers`, `cookies`, `params`, etc, they can fetch data asynchronously and let the content render.
+
+###### Caching Semantics
+
+n earlier version, there is a caching feature that catches the `fetch` requests, `GET` Route Handlers, and Client Router by default. In this version they are removing that default caching. To retain the caching functionality we have to passed an additional options to it.
 
 ## Awwwards
 ### Collection of sites found on Awwwards / inspiration
