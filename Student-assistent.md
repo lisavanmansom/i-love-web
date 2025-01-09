@@ -113,6 +113,8 @@ Uit de 3e voortgangsgesprekken werd vooral duidelijk dat veel studenten last-min
 
 ### Conclusie
 
+Veel studenten inzien niet dat het belangrijk is om gelijk aan de slag te gaan met de odpracht. Ze benaderen het met een lakse houding waardoor ze direct een achterstand creëren. Het andere deel wat wel op tempo het programma volgt gaat vooral hun gangetje, en lopen niet ergens tegen aan. Het eerste voorsganggesprek is in de 2e week van het programma, tijdens dit voortgangsgesprek wordt verwacht dat ze grotendeel van de HTML af hebben van de 1e pagina. Dit was bij veel niet het geval omdat ze toch ook wel moeite hebben met het opzetten en het beginnen ervan.
+
 ## Diversiteit binnen teams / voortgangsgesprekken 2
 ### Feedback / voortgang vastgelegd per leerling:
 - Anko: minder gebruik maken overbodige div's en classes, readme niet up to date;
@@ -130,6 +132,12 @@ Uit de 3e voortgangsgesprekken werd vooral duidelijk dat veel studenten last-min
 
 ### Conclusie
 
+In de periode tussen de voortgangsgesprekken heb ik vooral Mohammed en Mees geholpen, dit was omdat hun het meest open staan voor hulp en feedback. In het 2e voortgangsgesprek was te zien bij Mohammed dat hij een begin had gemaakt met de html, met het 2e voortgangsgesprek is het de bedeoling eigenlijk dat ze al css hebben. Bij Mohammed was dit dus niet het geval. In de lessen geef ik uitleg en voorbeelden en daarna verwijderd hij die voorbeelden en probeert het zelf en dan komt hij er niet uit, dan vraagt die het opnieuw en krijgt hij dezelfde oplossingsrichting als antwoord, daarna komt die tot de conclusie dat die oplossingsrichting hem in de juist richting zou brengen. Het is goed dat hij ook zijn eigen manier probeert, alleen zorgt zijn manier van werken wel ervoor dat hij flink langzamer is dan de rest. Ook duurt het bovenstaande proces 1 week voor elk onderwerp waar die vragen over stelt, zijn tempo ligt een beetje te laag. Tijdens deze voortgangsgesprekken was vooral uitleg gegeven over hoe je een layout kan creëren in CSS, of je grid moet gebruiken of dat flex handiger is. Ook werden er nog HTML vragen gesteld en hebb en we daar nog naar gekeken.
+
+#### Wat viel op?
+
+Wat vooral opviel was de diversiteit in voortgang en motivatie, vooral in de 1e periode en de 1e voortgangsgesprekken doen mensen nog hun best. Maar vanaf het middenstuk van het vak verliezen aardig wat studenten toch hun motivatie en raken ze achter van het lesprogramma. Omdat alles best snel gaat denk ik dat bij de eindperiode van het project het verschil nog duidelijker wordt. Ook viel op dat er minder studenten aanwezig waren bij het 2e voortgangsgesprek dan bij de 1e, dit gebeurt vaak als studenten achter lopen.
+
 ## Diversiteit binnen teams / voortgangsgesprekken 3
 ### Feedback / voortgang vastgelegd per leerling:
 - Kioko: Ze gaat voor de herkansing, nog weinig code, maar wel goeie html structuur;
@@ -144,7 +152,20 @@ Uit de 3e voortgangsgesprekken werd vooral duidelijk dat veel studenten last-min
 
 ### Conclusie
 
-## Algemene ervaring
+Bij het 3e voortganggesprek, het laatste voortgangsgesprek voor het inleveren, werden er veel vragen gesteld en sommige lieten al weten dat ze voor de herkansing gaan (Kioko, Mohammed en Mees). 
+
+#### Wat viel op?
+
+De klas heeft op vrijdag Web als enige les, wat vanaf de 2e voortgangsgesprek al duidelijk werd is dat veel mensen de voortgangsgesprekken skippen om thuis eraan te werken. Dat zijn vooral de studenten die achterlopen die dat doen, naar hun mening is het zonde van hun tijd om feedback te krijgen van iets wat niet af is. Ik begrijp dat ook wel, alleen kan je dat beter doen tijdens het 2e voortgangsgesprek en niet bij de laatste.
+
+Tijdens de voortgangsgesprekken wordt het pas duidelijk wat de voortgang is binnen de klas, het gemiddelde loopt achter, maar er zijn diverse uiterste, er zijn ook een aantal die vooruit lopen. Wat vooral opvalt tijdens de voortganggesprekken zijn de diverse werkwijzes die studenten gebruiken, denk aan Mees en Mohammed, hun gaan langzamer te werk omdat ze het gelijk goed willen doen en niet later weer terug willen en dingen moeten aanpassen. Bij Manuel en Luka is het eigenlijk het tegenovergestelde, hun blijven op het tempo van het lesprogramma en als ze er niet uit kwamen dan gaven ze dat aan, bij Manuel was dat niet echt het geval, bij hem lukte wel alles. Luka vroeg iets vaker om hulp, hij kon ook dingen loslaten als hij ergens niet uitkwam en werkte dan meestal verder aan andere dingen. 
+
+Uit het 3e voortgangsgesprek bleek dat veel studenten nog veel moeten doen en als ze ergens tegen aan lopen dat ze ook de lessen kunnen gebruiken om vragen te stellen.
+
+## Algemene ervaring / reflectie
+
+De ervaring en sfeer in deze klas vond ik heel rustig, het hele geheel ging heel rustig en stil. Tijdens de lessen waren ze geconcentreerd naar de uitleg aan het luisteren en daarna gingen ze goed aan het werk met de oefeningen en daarna met hun site. Ik merkte dat veel niet behoefte hadden aan hulp, ze stelde zelf amper vragen, dit maakte het soms best saai. Om te verkomen dat veel mensen er niet uit komen en dat dan niet zeggen heb ik wel vaak rondjes gelopen, vanuit daar keek ik mee en stelde vragen aan studenten. Ook nam ik elke les de Excel-sheet door waar informatie staat zoals waar ze tegenaan lopen tijdens de voortgangsgesprekken, welke piste ze doen en welke site ze namaken. Vanuit hier kon ik gerichtere vragen stellen tijdens het rondjes lopen en vanuit hier heb ik ook wel meer hulp kunnen geven. Alsnog voelde het wel een beejte minimaal, want het voelde echt alsof ik de vragen uit hun moest halen. Ik was dan ook blij met Mohammed en Mees, die in tegenstelling tot de rest, wel heel veel vragen stelden. Bij de laatste les was ik niet aanwezig, via Sammy had ik gehoord dat ze toen wel meer vragen stelden, dit had ik toen ook wel verwacht dat dat zou gebeuren omdat veel studenten in eerdere lessen helemaal niks vroegen.
+
 ### Gegeven feedback Sammy
 
 "Je ging energiek en sociaal te werk bij het helpen van studenten. Hierdoor creëerde je een omgeving waarin studenten zich comfortabel voelden om vragen te stellen. Vaak stellen studenten niet direct vragen, maar door jouw houding durfden ze dit gemakkelijker te doen. Het begeleiden en helpen van studenten ging ook goed, de studenten konden vaak verder na jouw hulp. 
@@ -157,4 +178,11 @@ Je proactieve en energieke werkhouding is een sterke kwaliteit, blijf deze inzet
 
 ### Ontvangen feedback Sammy
 
+https://github.com/SamaraFellaDina/i-love-web/issues/148#issuecomment-2575059768
+
+> <img width="100%" alt="Scherm­afbeelding 2025-01-09 om 13 34 51" src="https://github.com/user-attachments/assets/79bfe6f9-413e-484c-a19e-77356a1c335c" />
+
 ### Conclusie
+- Ik heb niet optimaal kunnen helpen omdat vooral de studenten niet echt open stonden voor hulp, ik heb eerder beschreven dat ik wel mijn best had gedaan, alleen kan je opeengegeven moment ook niks meer doen als ze de hele tijd zeggen dat ze eruit komen. Het moet van 2 kanten komen en helaas stonden veel studenten niet open voor hulp;
+- De samenwerking tussen mij en de studentassistenten verliep gelukkig wel goed. We hadden afspraken wie op welke dagen aanwezig zou zijn. Ik heb vooral veel met Sammy samengewerkt, wat een prettige ervaring was, ook was er een goede communicatie onderling.
+- Veel studenten liepen tegen hetzelfde aan, hier zouden we volgende keer meer op kunnen letten en het via een uitleg kunnen optimaliseren.
