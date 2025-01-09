@@ -162,9 +162,13 @@ Tijdens de voortgangsgesprekken wordt het pas duidelijk wat de voortgang is binn
 
 Uit het 3e voortgangsgesprek bleek dat veel studenten nog veel moeten doen en als ze ergens tegen aan lopen dat ze ook de lessen kunnen gebruiken om vragen te stellen.
 
-## Algemene ervaring / reflectie
+# Algemene ervaring / reflectie
 
 De ervaring en sfeer in deze klas vond ik heel rustig, het hele geheel ging heel rustig en stil. Tijdens de lessen waren ze geconcentreerd naar de uitleg aan het luisteren en daarna gingen ze goed aan het werk met de oefeningen en daarna met hun site. Ik merkte dat veel niet behoefte hadden aan hulp, ze stelde zelf amper vragen, dit maakte het soms best saai. Om te verkomen dat veel mensen er niet uit komen en dat dan niet zeggen heb ik wel vaak rondjes gelopen, vanuit daar keek ik mee en stelde vragen aan studenten. Ook nam ik elke les de Excel-sheet door waar informatie staat zoals waar ze tegenaan lopen tijdens de voortgangsgesprekken, welke piste ze doen en welke site ze namaken. Vanuit hier kon ik gerichtere vragen stellen tijdens het rondjes lopen en vanuit hier heb ik ook wel meer hulp kunnen geven. Alsnog voelde het wel een beejte minimaal, want het voelde echt alsof ik de vragen uit hun moest halen. Ik was dan ook blij met Mohammed en Mees, die in tegenstelling tot de rest, wel heel veel vragen stelden. Bij de laatste les was ik niet aanwezig, via Sammy had ik gehoord dat ze toen wel meer vragen stelden, dit had ik toen ook wel verwacht dat dat zou gebeuren omdat veel studenten in eerdere lessen helemaal niks vroegen.
+
+## Samenwerking
+
+Ik was samen met Bahaa Salaymeh en Sammy Bensink studentassisten voor klas 205. We hadden van te voren de aanwezigheid besproken waardoor dat een duidelijk rooster gaf. Vaak waren Sammy en ik samen aanwezig tijdens de lessen. Hierdoor konden we goed sparren over ideeen, werkwijze en het administratieve gedeelte. Ik heb vooral met Sammy samengewerkt, wat erg goed ging en wat ook erg gezellig was. In het begin is het altijd kijken hoe de klas in elkaar zit omdat er veel diversiteit binnen een klas is. Het was fijn om samen met Sammy de uitdaging aan te gaan en erachter te komen wat de valkuilen van de studenten zijn. Sammy is socialer en meer meelevend, ik ben iets nuchter en resultaatgericht, hierdoor konden we elkaar goed aanvullen in het begin.
 
 ### Gegeven feedback Sammy
 
