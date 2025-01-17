@@ -189,4 +189,29 @@ https://github.com/SamaraFellaDina/i-love-web/issues/148#issuecomment-2575059768
 ### Conclusie
 - Ik heb niet optimaal kunnen helpen omdat vooral de studenten niet echt open stonden voor hulp, ik heb eerder beschreven dat ik wel mijn best had gedaan, alleen kan je opeengegeven moment ook niks meer doen als ze de hele tijd zeggen dat ze eruit komen. Het moet van 2 kanten komen en helaas stonden veel studenten niet open voor hulp;
 - De samenwerking tussen mij en de studentassistenten verliep gelukkig wel goed. We hadden afspraken wie op welke dagen aanwezig zou zijn. Ik heb vooral veel met Sammy samengewerkt, wat een prettige ervaring was, ook was er een goede communicatie onderling.
-- Veel studenten liepen tegen hetzelfde aan, hier zouden we volgende keer meer op kunnen letten en het via een uitleg kunnen optimaliseren.
+- Veel studenten liepen tegen hetzelfde aan, hier zouden we volgende keer meer op kunnen letten en het via een uitleg kunnen optimaliseren. 
+
+## Feedback van studenten
+
+Sammy en ik hebben een formulier, enquete, waar we vragen stellen over onze werkzaamheden en of de studenten nog verbeterpunten zien in hoe we te werk gaan opgestuurd.
+
+### Wat vond je dat de studentassistenten goed deden?
+- **Hope Veen:** "Ik vond dat jullie hele goede uitleg gaven en ons daadwerkelijk verder probeerden te helpen. Ook vond ik het fijn dat onze sites even bekeken werden zodat jullie ons feedback konden geven."
+- **Mees Groeneveld:** " Zeer goed "
+- **Manuel Hartog:** " Persoonlijk eigenlijk geen hulp (nodig) gehad "
+
+### Wat vond je van de hulp die we jou aanboden?
+- **Hope Veen:** "Hele duidelijke uitleg. Fijn dat jullie echt bezig waren met ons en niet met andere dingen. Dit hebben we bij sommige andere studentenassistentes wel gehad."
+- **Mees Groeneveld:** "heel fijn"
+- **Manuel Hartog:** -
+
+### Wat voor feedback wil je ons meegeven voor in de toekomst?
+- **Hope Veen:** "Eigenlijk niks. Jullie deden het super leuk en zou jullie graag nog een keer willen hebben als studentassistentes. :)"
+- **Mees Groeneveld:** "Er is niks wat ik me kan bedenken de hulp was goed en de feedback was duidelijk"
+- **Manuel Hartog:** -
+
+### Wat voor rating zou je ons geven?
+
+<img width="100%" alt="Scherm­afbeelding 2025-01-17 om 10 45 32" src="https://github.com/user-attachments/assets/ac3f6d0f-c4e0-4670-9286-280cb54cd3af" />
+
+
