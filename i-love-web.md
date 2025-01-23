@@ -123,6 +123,8 @@ Custom cursors are currently one of the biggest trends in website design. A cust
 * https://neodlx.io
 * https://www.renflowdesigns.com/404
 
+> [uitwerking](https://github.com/lisavanmansom/digital-garden-next/issues/27)
+
 <img width="100%" alt="Scherm­afbeelding 2025-01-02 om 15 04 44" src="https://github.com/user-attachments/assets/65663c1e-50ae-476d-acd6-0ce706779dfb" />
 
 #### Grid and Modular design
