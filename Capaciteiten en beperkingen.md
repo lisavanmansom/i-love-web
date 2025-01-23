@@ -1,4 +1,4 @@
-# Capaciteiten en beperkingen
+# Capaciteiten en beperkingen Midterm
 
 ## Praatplaat
 ### Leek or Leek
@@ -25,3 +25,15 @@ We zijn gestart met een teamcanvas in te vullen, hier hebben we afspraken, doele
 Door al deze dingen te doen was het doel dat er een goede samenwerking zou zijn, iedereen heeft bovendien z'n individuele taken gedaan. Maar alsnog ging het niet helemaal soepel, alle taken die collectief voor de groep in voordeel zouden zijn, zijn door mij gemaakt omdat niemand echt initatief toonde. Als voorbeeld, bij het opzetten van Directus was de vraag wie gaat dat doen, de aanwezige teamleden kijken schaapachtige naar mij omdat hun het niet echt zagen zitten, ik merkte dat mijn teamleden vanuit gingen dat de taken die voor de groep collectief waren wel voor hun zouden worden gedaan. Ook waren een aantal gezamelijke taken zoals duidelijke afspraken opzetten, hier had ik besloten om hun aan het woord te laten zodat ik niet alles zou 'bepalen', alleen hadden ze niks te voorgesteld, dus uiteindelijk heb ik dat ook moeten opzetten.
 
 Om tot conclusie te komen, ik heb eigenlijk te veel bijgedragen maar als ik het niet zou doen, dan was het niet gedaan. Bij veel taken heb je het nodig als bewijslast, dus dan moet het alsnog worden gedaan en is er uiteindelijk niet echt een keus.
+
+# Capaciteiten en beperkingen Endterm
+## Praatplaat
+### De boksende bosui's
+
+Mijn metafoor is 'De boksende bosui's, midterm vs endterm'. Hiermee wil ik mijn ontwikkelingen van 3 sprints met elkaar vergerelijken. **Bosui Midterm** (linker bosui) heeft als ontwikkelingen: SvelteKit, begin WebGL, componenenten, projectboard, plannen en prioriteren, Directus inrichten, argumentatieprocess & React. **Bosui Endterm** (rechter bosui) heeft als ontwikkelingen: Next.js, kampvuursessies, view transitions, scroll-driven animations, forms, release candidate & componenten library inrichten. In het metafoor heb ik de bosui's boksend in een wedstrijd gemaakt omdat ik door te reflecteren een bosui wil laten winnen. 
+
+De winnende bosui is **Bosui endterm** omdat ik mezelf meer heb uitgedaagd op het gebied van creative coding tijdens bijvoorbeeld de creatives spikes, ook ben ik meer grenzen gaan aangeven tijdens bijvoorbeeld kampvoorsessies waardoor ik gerichter feedback heb kunnen geven aan mijn teamgenoten. 
+
+Tijdens beide periodes heb ik ook een extra framework proberen te leren, tijdens de periode voor de midterm heb ik echt alleen de basic's geleerd van React. In de periode van de endterm heb ik bij NextJS meer mijn best gedaan om het onder de knie te krijgen, ik had mezelf meer uitgedaagd door mijn learning journal erin te maken zodat ik het ook echt meer van moest leren. Componenten komt 2x voor, bij Bosui Midterm en Bosui Endterm, tijdens de midterm-periode heb ik vooral de basics geleerd van componenten en tijdens de end-term periode heb ik het meer verkend wat alle opties zijn, hoe je het dynamisch kan inzetten etc. Tijdens de midterm-periode heb was alles statisch nog en was de component library ook nog verkeerd ingericht. Vanwege die factoren heb ik mezelf meer ontwikkeld tijdens de end-term periode op het gebied van componenten.
+
+Het enige waar ik meer had geleerd tijdens de midterm-periode is WebGl, ik was toen begonnen om het te leren, en daarin heb ik tijdens de endterm-periode niet heel veel meer verder aangedaan. Tijdens de creative spikes heb ik wel gebruik gemaakt van een shader, maar ik was van plan om er meer tijd in te steken op vrije momenten.
