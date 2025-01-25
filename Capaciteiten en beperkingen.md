@@ -5,7 +5,7 @@
 
 Mijn metafoor is "Leek or Leek", hiermee wil ik mijn sterke en zwakke punten bespreekbaar maken door middel van een praatplaat. Op het uiteinde van de prei (groene kant) staan eigenschappen en kenmerken waarin ik een leek ben (zwakke punten), aan deze kant van de prei heeft niet veel functie, net zoals dus de eigenschappen en kenmerken van mij. Elke eigenschap of kenmerk kan je verbeteren, maar het zal nooit mijn sterkste punt worden. Het een andere uiteinde van de prei (witte gedeelte) staan de eigenschappen en kermerken die potentie hebben om goed te worden, deze kan ik ontwikkelen tot sterk punten. Ook heb ik een doel in de praatplaat verwerkt, namelijk een 'le creuset pan'. Voor het maken van de praatplaat moest je je doelen binnen een jaar, sterke- en zwakke punten uitschetsen, één van die doelen was: het kopen van een 'le creuset pan'. Ik had ook serieuzere doelen opgesteld maar deze paste perfect in het metafoor en daarom had ik gekozen voor dit doel. In de pan bevinden zich mijn sterke kenmerken en eigenschappen, ik heb ze in de pan gepositioneerd omdat ik het doel wil koppelen met iets positiefs. In mijn sterke eigenschappen en kenmerken ben ik geen leek, dus alles wat zich in de pan bevind is gewoon prei.
 
-![963f76ce-f669-45d3-ad91-e84d12e7d44c](https://github.com/user-attachments/assets/0e018103-29fd-4dcd-b91a-fe455e124969)
+> ![963f76ce-f669-45d3-ad91-e84d12e7d44c](https://github.com/user-attachments/assets/0e018103-29fd-4dcd-b91a-fe455e124969)
 
 
 ## Overzicht leervragen
@@ -36,4 +36,8 @@ De winnende bosui is **Bosui endterm** omdat ik mezelf meer heb uitgedaagd op he
 
 Tijdens beide periodes heb ik ook een extra framework proberen te leren, tijdens de periode voor de midterm heb ik echt alleen de basic's geleerd van React. In de periode van de endterm heb ik bij NextJS meer mijn best gedaan om het onder de knie te krijgen, ik had mezelf meer uitgedaagd door mijn learning journal erin te maken zodat ik het ook echt meer van moest leren. Componenten komt 2x voor, bij Bosui Midterm en Bosui Endterm, tijdens de midterm-periode heb ik vooral de basics geleerd van componenten en tijdens de end-term periode heb ik het meer verkend wat alle opties zijn, hoe je het dynamisch kan inzetten etc. Tijdens de midterm-periode heb was alles statisch nog en was de component library ook nog verkeerd ingericht. Vanwege die factoren heb ik mezelf meer ontwikkeld tijdens de end-term periode op het gebied van componenten.
 
-Het enige waar ik meer had geleerd tijdens de midterm-periode is WebGl, ik was toen begonnen om het te leren, en daarin heb ik tijdens de endterm-periode niet heel veel meer verder aangedaan. Tijdens de creative spikes heb ik wel gebruik gemaakt van een shader, maar ik was van plan om er meer tijd in te steken op vrije momenten.
+Het enige waar ik meer had geleerd tijdens de midterm-periode is WebGl, ik was toen begonnen om het te leren, en daarin heb ik tijdens de endterm-periode niet heel veel meer verder aangedaan. Tijdens de creative spikes heb ik wel gebruik gemaakt van een shader, maar ik was van plan om er meer tijd in te steken op vrije momenten. 
+
+> ![524562ba-80a5-4bf5-86ae-ecb11fc2d7dd](https://github.com/user-attachments/assets/1c9fe497-c53b-4a53-873a-208d68b739be)
+
+
